@@ -1,83 +1,5 @@
 [
   {
-    "id": "hms-victory",
-    "name": "HMS Victory",
-    "nation": "United Kingdom",
-    "class": "104-gun first-rate ship of the line",
-    "launched": 1765,
-    "fate": "Preserved in dry dock at Portsmouth; still a commissioned Royal Navy ship",
-    "description": "Nelson's flagship at the Battle of Trafalgar on 21 October 1805, where the Royal Navy defeated the combined French and Spanish fleets and Nelson was fatally wounded on her quarterdeck.",
-    "fun_fact": "In dry dock since 1922, she is the oldest naval vessel in the world still in commission.",
-    "image": "hms-victory.jpg",
-    "image_credit": "Photo: Cimosteve / MARC912374 · CC0",
-    "focus": [0.5, 0.45]
-  },
-  {
-    "id": "uss-constitution",
-    "name": "USS Constitution",
-    "nation": "United States",
-    "class": "44-gun heavy frigate",
-    "launched": 1797,
-    "fate": "Still in commission; berthed at the Charlestown Navy Yard, Boston",
-    "description": "One of the first six frigates built for the United States Navy. In the War of 1812 she defeated HMS Guerriere, HMS Java and other British warships, becoming a national symbol.",
-    "fun_fact": "She became \"Old Ironsides\" in 1812, when British shot was seen bouncing off her live-oak hull. She is the oldest commissioned warship still afloat.",
-    "image": "uss-constitution.jpg",
-    "image_credit": "Photo: U.S. Navy / Seaman Matthew R. Fairchild · Public domain",
-    "focus": [0.5, 0.5]
-  },
-  {
-    "id": "rms-titanic",
-    "name": "RMS Titanic",
-    "nation": "United Kingdom",
-    "class": "Olympic-class ocean liner",
-    "launched": 1911,
-    "fate": "Sank in the North Atlantic on 15 April 1912",
-    "description": "The largest ship afloat when she entered service. On her maiden voyage from Southampton to New York she struck an iceberg late on 14 April 1912 and sank in under three hours; more than 1,500 people died.",
-    "fun_fact": "Only three of her four funnels served the boilers. The fourth was added largely for appearance and was used for ventilation.",
-    "image": "rms-titanic.jpg",
-    "image_credit": "Photo: F. G. O. Stuart, 1912 · Public domain",
-    "focus": [0.5, 0.5]
-  },
-  {
-    "id": "hms-dreadnought",
-    "name": "HMS Dreadnought",
-    "nation": "United Kingdom",
-    "class": "Dreadnought-class battleship",
-    "launched": 1906,
-    "fate": "Sold for scrap in 1921 and broken up",
-    "description": "The first \"all-big-gun\" battleship and the first with steam turbines. She made every earlier battleship obsolete almost overnight and gave her name to a whole generation of warships.",
-    "fun_fact": "Her only kill was the German submarine U-29, rammed and sunk in March 1915 — the only time a battleship is known to have sunk a submarine.",
-    "image": "hms-dreadnought.jpg",
-    "image_credit": "Photo: U.S. Naval Historical Center, NH 61017 · Public domain",
-    "focus": [0.5, 0.52]
-  },
-  {
-    "id": "uss-enterprise-cv6",
-    "name": "USS Enterprise (CV-6)",
-    "nation": "United States",
-    "class": "Yorktown-class aircraft carrier",
-    "launched": 1936,
-    "fate": "Decommissioned in 1947; scrapped 1958–1960 despite efforts to preserve her",
-    "description": "The most decorated American warship of the Second World War, with 20 battle stars. She fought at Midway, the Eastern Solomons, Santa Cruz, the Philippine Sea and Leyte Gulf.",
-    "fun_fact": "Japan announced her sunk on three separate occasions, which helped earn her the nickname \"The Grey Ghost\".",
-    "image": "uss-enterprise-cv6.jpg",
-    "image_credit": "Photo: U.S. Navy, 1945 · Public domain",
-    "focus": [0.5, 0.55]
-  },
-  {
-    "id": "yamato",
-    "name": "Yamato",
-    "nation": "Japan",
-    "class": "Yamato-class battleship",
-    "launched": 1940,
-    "fate": "Sunk by US carrier aircraft north of Okinawa, 7 April 1945",
-    "description": "With her sister Musashi, the heaviest and most powerfully armed battleship ever built: about 72,000 tonnes at full load, carrying nine 46 cm (18.1 in) guns, the largest ever mounted on a warship.",
-    "fun_fact": "Each of her three main gun turrets weighed around 2,500 tonnes — roughly as much as a destroyer of the period.",
-    "image": "yamato.jpg",
-    "image_credit": "Photo: Hasuya Hirohata, 1941 · Public domain",
-    "focus": [0.45, 0.5]
-  },
-  {
     "id": "bismarck",
     "name": "Bismarck",
     "nation": "Germany",
@@ -88,137 +10,10 @@
     "fun_fact": "Her wreck was found in 1989, nearly 4,800 metres down, by Robert Ballard — the oceanographer who had located Titanic four years earlier.",
     "image": "bismarck.jpg",
     "image_credit": "Photo: Bundesarchiv, Bild 193-04-1-26 · CC BY-SA 3.0 DE",
-    "focus": [0.42, 0.5]
-  },
-  {
-    "id": "hms-hood",
-    "name": "HMS Hood",
-    "nation": "United Kingdom",
-    "class": "Admiral-class battlecruiser",
-    "launched": 1918,
-    "fate": "Sunk by Bismarck on 24 May 1941; only 3 of 1,418 crew survived",
-    "description": "For two decades the largest warship in the world and the pride of the Royal Navy, known as \"The Mighty Hood\". She blew up minutes into her engagement with Bismarck in the Denmark Strait.",
-    "fun_fact": "In 1923–24 she led the \"Empire Cruise\", a ten-month voyage around the world covering more than 38,000 nautical miles.",
-    "image": "hms-hood.jpg",
-    "image_credit": "Photo: Allan C. Green, 1924; restored by Adam Cuerden · Public domain",
-    "focus": [0.5, 0.5]
-  },
-  {
-    "id": "uss-missouri",
-    "name": "USS Missouri",
-    "nation": "United States",
-    "class": "Iowa-class battleship",
-    "launched": 1944,
-    "fate": "Decommissioned in 1992; museum ship at Pearl Harbor since 1999",
-    "description": "The last battleship commissioned by the United States. Japan's surrender was signed on her deck in Tokyo Bay on 2 September 1945, ending the Second World War. She later served in Korea and the 1991 Gulf War.",
-    "fun_fact": "She is moored facing the wreck of USS Arizona, so the two ships mark the beginning and the end of America's war in the Pacific.",
-    "image": "uss-missouri.jpg",
-    "image_credit": "Photo: U.S. Navy, 80-G-453331, 1944 · Public domain",
-    "focus": [0.5, 0.52]
-  },
-  {
-    "id": "hms-belfast",
-    "name": "HMS Belfast",
-    "nation": "United Kingdom",
-    "class": "Town-class light cruiser",
-    "launched": 1938,
-    "fate": "Museum ship on the River Thames, London, since 1971",
-    "description": "A Royal Navy cruiser that helped sink Scharnhorst at the Battle of North Cape in 1943, bombarded the Normandy beaches on D-Day and later fought in the Korean War.",
-    "fun_fact": "Her forward guns are trained on a motorway service station on the M1, about 12 miles away, to show how far they could reach.",
-    "image": "hms-belfast.jpg",
-    "image_credit": "Photo: Alvesgaspar · CC BY-SA 3.0",
-    "focus": [0.5, 0.55]
-  },
-  {
-    "id": "uss-arizona",
-    "name": "USS Arizona",
-    "nation": "United States",
-    "class": "Pennsylvania-class battleship",
-    "launched": 1915,
-    "fate": "Sunk at Pearl Harbor, 7 December 1941; her wreck is a national memorial",
-    "description": "A battleship destroyed in the attack on Pearl Harbor on 7 December 1941, when a bomb detonated her forward magazines. 1,177 of her crew were killed, almost half of all those who died in the attack.",
-    "fun_fact": "Oil still seeps from the wreck more than 80 years later. The drops rising to the surface are known as the \"tears of the Arizona\".",
-    "image": "uss-arizona.jpg",
-    "image_credit": "Photo: U.S. National Archives, NARA 5900075 · Public domain",
-    "focus": [0.5, 0.5]
-  },
-  {
-    "id": "cutty-sark",
-    "name": "Cutty Sark",
-    "nation": "United Kingdom",
-    "class": "Tea clipper",
-    "launched": 1869,
-    "fate": "Preserved in dry dock at Greenwich, London, since 1954",
-    "description": "One of the last and fastest tea clippers. The Suez Canal opened the same month she was launched, handing the tea trade to steamships, but she later set record passages carrying wool from Australia.",
-    "fun_fact": "Her name comes from Robert Burns's poem Tam o' Shanter: a \"cutty sark\" is the short shift worn by the witch Nannie, who is her figurehead.",
-    "image": "cutty-sark.jpg",
-    "image_credit": "Photo: Ethan Doyle White · CC BY-SA 4.0",
-    "focus": [0.5, 0.45]
-  },
-  {
-    "id": "vasa",
-    "name": "Vasa",
-    "nation": "Sweden",
-    "class": "64-gun warship",
-    "launched": 1627,
-    "fate": "Sank in Stockholm harbour on 10 August 1628; raised in 1961",
-    "description": "Built for King Gustavus Adolphus as one of the most heavily armed ships of her day. Dangerously top-heavy, she heeled over in a gust and sank barely 1,300 metres into her maiden voyage.",
-    "fun_fact": "After 333 years on the seabed she was raised almost intact. About 98 per cent of the ship on display in Stockholm is original.",
-    "image": "vasa.jpg",
-    "image_credit": "Photo: JavierKohen · CC BY-SA 3.0",
-    "focus": [0.5, 0.4]
-  },
-  {
-    "id": "santa-maria",
-    "name": "Santa María",
-    "nation": "Spain (Crown of Castile)",
-    "class": "Nao (carrack)",
-    "launched": "Unknown (15th century)",
-    "fate": "Wrecked off Hispaniola on 25 December 1492",
-    "description": "Flagship of Christopher Columbus on his first voyage across the Atlantic in 1492, and the largest of his three ships alongside the caravels Niña and Pinta. Her timbers were salvaged to build the settlement of La Navidad.",
-    "fun_fact": "No plans or reliable pictures of her survive, so every replica — like the one photographed here around 1904 — is an educated guess.",
-    "image": "santa-maria.jpg",
-    "image_credit": "Photo of a replica, c. 1904: Library of Congress · Public domain",
-    "focus": [0.5, 0.42]
-  },
-  {
-    "id": "endeavour",
-    "name": "HMS Endeavour",
-    "nation": "Great Britain",
-    "class": "Bark (converted Whitby collier)",
-    "launched": 1764,
-    "fate": "Scuttled off Newport, Rhode Island, in 1778 as the transport Lord Sandwich",
-    "description": "The ship of James Cook's first voyage of discovery (1768–1771), which observed the transit of Venus from Tahiti, circumnavigated New Zealand and charted the east coast of Australia.",
-    "fun_fact": "NASA's Space Shuttle Endeavour was named after her, which is why its name uses the British spelling.",
-    "image": "endeavour.jpg",
-    "image_credit": "Painting: Samuel Atkins, c. 1794 · National Library of Australia · Public domain",
-    "focus": [0.4, 0.68]
-  },
-  {
-    "id": "uss-nautilus",
-    "name": "USS Nautilus (SSN-571)",
-    "nation": "United States",
-    "class": "Nuclear-powered attack submarine",
-    "launched": 1954,
-    "fate": "Decommissioned in 1980; museum ship at Groton, Connecticut",
-    "description": "The world's first nuclear-powered submarine. She first put to sea in January 1955 with the signal \"Underway on nuclear power\", and in 1958 became the first vessel to reach the North Pole, passing beneath the ice.",
-    "fun_fact": "President Harry Truman laid her keel in 1952, and First Lady Mamie Eisenhower christened her at the launch in 1954.",
-    "image": "uss-nautilus.jpg",
-    "image_credit": "Photo: U.S. Navy · Public domain",
-    "focus": [0.5, 0.55]
-  },
-  {
-    "id": "hms-warrior",
-    "name": "HMS Warrior",
-    "nation": "United Kingdom",
-    "class": "Warrior-class armoured frigate",
-    "launched": 1860,
-    "fate": "Restored 1979–1985; museum ship at Portsmouth since 1987",
-    "description": "Britain's first iron-hulled, armoured warship, built in answer to the French ironclad Gloire. The largest, fastest and most powerful warship of her day, she never fired a shot in anger.",
-    "fun_fact": "Before her restoration she spent fifty years as a floating oil jetty at Pembroke Dock in Wales.",
-    "image": "hms-warrior.jpg",
-    "image_credit": "Photo: Geni · CC BY-SA 4.0",
-    "focus": [0.5, 0.5]
+    "focus": [
+      0.42,
+      0.5
+    ]
   },
   {
     "id": "scharnhorst",
@@ -231,7 +26,106 @@
     "fun_fact": "While sinking HMS Glorious she scored a hit at about 24 km (26,000 yards) — one of the longest-range naval gunnery hits ever recorded.",
     "image": "scharnhorst.jpg",
     "image_credit": "Photo: Bundesarchiv, DVM 10 Bild-23-63-07 · CC BY-SA 3.0 DE",
-    "focus": [0.5, 0.66]
+    "focus": [
+      0.5,
+      0.66
+    ]
+  },
+  {
+    "id": "hms-belfast",
+    "name": "HMS Belfast",
+    "nation": "United Kingdom",
+    "class": "Town-class light cruiser",
+    "launched": 1938,
+    "fate": "Museum ship on the River Thames, London, since 1971",
+    "description": "A Royal Navy cruiser that helped sink Scharnhorst at the Battle of North Cape in 1943, bombarded the Normandy beaches on D-Day and later fought in the Korean War.",
+    "fun_fact": "Her forward guns are trained on a motorway service station on the M1, about 12 miles away, to show how far they could reach.",
+    "image": "hms-belfast.jpg",
+    "image_credit": "Photo: Alvesgaspar · CC BY-SA 3.0",
+    "focus": [
+      0.5,
+      0.55
+    ]
+  },
+  {
+    "id": "uss-enterprise-cv6",
+    "name": "USS Enterprise (CV-6)",
+    "nation": "United States",
+    "class": "Yorktown-class aircraft carrier",
+    "launched": 1936,
+    "fate": "Decommissioned in 1947; scrapped 1958–1960 despite efforts to preserve her",
+    "description": "The most decorated American warship of the Second World War, with 20 battle stars. She fought at Midway, the Eastern Solomons, Santa Cruz, the Philippine Sea and Leyte Gulf.",
+    "fun_fact": "Japan announced her sunk on three separate occasions, which helped earn her the nickname \"The Grey Ghost\".",
+    "image": "uss-enterprise-cv6.jpg",
+    "image_credit": "Photo: U.S. Navy, 1945 · Public domain",
+    "focus": [
+      0.5,
+      0.55
+    ]
+  },
+  {
+    "id": "yamato",
+    "name": "Yamato",
+    "nation": "Japan",
+    "class": "Yamato-class battleship",
+    "launched": 1940,
+    "fate": "Sunk by US carrier aircraft north of Okinawa, 7 April 1945",
+    "description": "With her sister Musashi, the heaviest and most powerfully armed battleship ever built: about 72,000 tonnes at full load, carrying nine 46 cm (18.1 in) guns, the largest ever mounted on a warship.",
+    "fun_fact": "Each of her three main gun turrets weighed around 2,500 tonnes — roughly as much as a destroyer of the period.",
+    "image": "yamato.jpg",
+    "image_credit": "Photo: Hasuya Hirohata, 1941 · Public domain",
+    "focus": [
+      0.45,
+      0.5
+    ]
+  },
+  {
+    "id": "hms-hood",
+    "name": "HMS Hood",
+    "nation": "United Kingdom",
+    "class": "Admiral-class battlecruiser",
+    "launched": 1918,
+    "fate": "Sunk by Bismarck on 24 May 1941; only 3 of 1,418 crew survived",
+    "description": "For two decades the largest warship in the world and the pride of the Royal Navy, known as \"The Mighty Hood\". She blew up minutes into her engagement with Bismarck in the Denmark Strait.",
+    "fun_fact": "In 1923–24 she led the \"Empire Cruise\", a ten-month voyage around the world covering more than 38,000 nautical miles.",
+    "image": "hms-hood.jpg",
+    "image_credit": "Photo: Allan C. Green, 1924; restored by Adam Cuerden · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-missouri",
+    "name": "USS Missouri",
+    "nation": "United States",
+    "class": "Iowa-class battleship",
+    "launched": 1944,
+    "fate": "Decommissioned in 1992; museum ship at Pearl Harbor since 1999",
+    "description": "The last battleship commissioned by the United States. Japan's surrender was signed on her deck in Tokyo Bay on 2 September 1945, ending the Second World War. She later served in Korea and the 1991 Gulf War.",
+    "fun_fact": "She is moored facing the wreck of USS Arizona, so the two ships mark the beginning and the end of America's war in the Pacific.",
+    "image": "uss-missouri.jpg",
+    "image_credit": "Photo: U.S. Navy, 80-G-453331, 1944 · Public domain",
+    "focus": [
+      0.5,
+      0.52
+    ]
+  },
+  {
+    "id": "uss-arizona",
+    "name": "USS Arizona",
+    "nation": "United States",
+    "class": "Pennsylvania-class battleship",
+    "launched": 1915,
+    "fate": "Sunk at Pearl Harbor, 7 December 1941; her wreck is a national memorial",
+    "description": "A battleship destroyed in the attack on Pearl Harbor on 7 December 1941, when a bomb detonated her forward magazines. 1,177 of her crew were killed, almost half of all those who died in the attack.",
+    "fun_fact": "Oil still seeps from the wreck more than 80 years later. The drops rising to the surface are known as the \"tears of the Arizona\".",
+    "image": "uss-arizona.jpg",
+    "image_credit": "Photo: U.S. National Archives, NARA 5900075 · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
   },
   {
     "id": "akagi",
@@ -244,59 +138,10 @@
     "fun_fact": "Laid down as a battlecruiser, she was first completed as a carrier with three flight decks stacked one above another, and later rebuilt with one.",
     "image": "akagi.jpg",
     "image_credit": "Photo: Imperial Japanese Navy, 1941 (NH 73059) · Public domain",
-    "focus": [0.5, 0.42]
-  },
-  {
-    "id": "queen-mary",
-    "name": "RMS Queen Mary",
-    "nation": "United Kingdom",
-    "class": "Ocean liner",
-    "launched": 1934,
-    "fate": "Retired in 1967; now a hotel and museum at Long Beach, California",
-    "description": "Cunard's great Atlantic express liner. She held the Blue Riband for the fastest crossing from 1938 to 1952, and as a wartime troopship she relied on her speed to outrun U-boats.",
-    "fun_fact": "In July 1943 she carried 16,683 people on a single crossing — still the most ever transported on one ship.",
-    "image": "queen-mary.jpg",
-    "image_credit": "Photo: Carol M. Highsmith / Library of Congress · Public domain",
-    "focus": [0.5, 0.5]
-  },
-  {
-    "id": "mikasa",
-    "name": "Mikasa",
-    "nation": "Japan",
-    "class": "Pre-dreadnought battleship",
-    "launched": 1900,
-    "fate": "Preserved as a memorial ship at Yokosuka since 1926",
-    "description": "Built in Britain by Vickers, she was Admiral Togo's flagship at the Battle of Tsushima in May 1905, where the Japanese fleet destroyed Russia's Baltic Fleet in one of history's most decisive naval battles.",
-    "fun_fact": "She is the last surviving pre-dreadnought battleship anywhere in the world.",
-    "image": "mikasa.jpg",
-    "image_credit": "Photo: unknown photographer, 1905 · Public domain",
-    "focus": [0.5, 0.5]
-  },
-  {
-    "id": "aurora",
-    "name": "Aurora",
-    "nation": "Russia",
-    "class": "Pallada-class protected cruiser",
-    "launched": 1900,
-    "fate": "Museum ship in Saint Petersburg since 1957",
-    "description": "A survivor of the Battle of Tsushima. On 7 November 1917 (25 October, Old Style) a blank shot from her bow gun signalled the storming of the Winter Palace, the start of the October Revolution.",
-    "fun_fact": "During the Siege of Leningrad her guns were taken ashore to defend the city and the ship was sunk in shallow water. She was raised in 1944.",
-    "image": "aurora.jpg",
-    "image_credit": "Photo: Никонико962 · CC BY-SA 4.0",
-    "focus": [0.5, 0.5]
-  },
-  {
-    "id": "fram",
-    "name": "Fram",
-    "nation": "Norway",
-    "class": "Polar exploration schooner",
-    "launched": 1892,
-    "fate": "Preserved at the Fram Museum in Oslo since 1936",
-    "description": "Built for Fridtjof Nansen's attempt to drift across the Arctic in the pack ice, and later used by Otto Sverdrup and by Roald Amundsen, who sailed her south for his journey to the South Pole in 1911.",
-    "fun_fact": "Her rounded hull was designed so that squeezing ice would lift her instead of crushing her. She is said to have sailed farther north and south than any other wooden ship.",
-    "image": "fram.jpg",
-    "image_credit": "Photo: from Amundsen, The South Pole (1912), via NOAA · Public domain",
-    "focus": [0.5, 0.6]
+    "focus": [
+      0.5,
+      0.42
+    ]
   },
   {
     "id": "georgios-averof",
@@ -309,6 +154,3305 @@
     "fun_fact": "About a third of her cost was paid from the bequest of the benefactor George Averoff. She is the only armoured cruiser that survives today.",
     "image": "georgios-averof.jpg",
     "image_credit": "Photo: Cmfrangos · CC BY 4.0",
-    "focus": [0.5, 0.5]
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "tirpitz",
+    "name": "Tirpitz",
+    "nation": "Germany",
+    "class": "Bismarck-class battleship",
+    "launched": 1939,
+    "fate": "Capsized by RAF Tallboy bombs near Tromsø, Norway, on 12 November 1944",
+    "description": "Sister ship of Bismarck and the heaviest battleship built in Europe. She spent most of the war in Norwegian fjords, tying down Allied forces simply by existing as a threat to the Arctic convoys.",
+    "fun_fact": "Churchill called her \"the Beast\". British midget submarines, carrier aircraft and heavy bombers all attacked her before she was finally sunk.",
+    "image": "tirpitz.jpg",
+    "image_credit": "Image: see LICENSES.md · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "gneisenau",
+    "name": "Gneisenau",
+    "nation": "Germany",
+    "class": "Scharnhorst-class battleship",
+    "launched": 1936,
+    "fate": "Sunk as a blockship at Gotenhafen (Gdynia) in March 1945; scrapped in 1951",
+    "description": "With her sister Scharnhorst she sank the carrier HMS Glorious in 1940, raided Atlantic shipping in 1941 and ran the English Channel in daylight in 1942. A bomb hit soon afterwards ended her career.",
+    "fun_fact": "One of her triple 28 cm turrets was installed as a coastal battery at Austrått in Norway, where it survives intact.",
+    "image": "gneisenau.jpg",
+    "image_credit": "Image: Bundesarchiv, DVM 10 Bild-23-63-21 · CC BY-SA 3.0 DE",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "schleswig-holstein",
+    "name": "Schleswig-Holstein",
+    "nation": "Germany",
+    "class": "Deutschland-class pre-dreadnought battleship",
+    "launched": 1906,
+    "fate": "Sunk by RAF bombers at Gotenhafen in December 1944",
+    "description": "A veteran of the Battle of Jutland kept as a training ship. At dawn on 1 September 1939 she opened fire on the Polish depot at Westerplatte in Danzig, the opening shots of the Second World War in Europe.",
+    "fun_fact": "She had arrived in Danzig a week earlier on what was announced as a courtesy visit, with assault troops hidden below decks.",
+    "image": "schleswig-holstein.jpg",
+    "image_credit": "Image: Bundesarchiv, DVM 10 Bild-23-63-47 · CC BY-SA 3.0 DE",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "hms-king-george-v",
+    "name": "HMS King George V",
+    "nation": "United Kingdom",
+    "class": "King George V-class battleship",
+    "launched": 1939,
+    "fate": "Sold for scrap in 1957",
+    "description": "Flagship of the Home Fleet during the hunt for Bismarck, whose guns she helped silence on 27 May 1941. She later covered Arctic convoys and the invasion of Sicily and served in the British Pacific Fleet.",
+    "fun_fact": "In fog in May 1942 she rammed and sank the destroyer HMS Punjabi, whose exploding depth charges then damaged the battleship's bow.",
+    "image": "hms-king-george-v.jpg",
+    "image_credit": "Image: USN · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "hms-prince-of-wales",
+    "name": "HMS Prince of Wales",
+    "nation": "United Kingdom",
+    "class": "King George V-class battleship",
+    "launched": 1939,
+    "fate": "Sunk by Japanese aircraft off Malaya on 10 December 1941",
+    "description": "Barely complete, she fought Bismarck in the Denmark Strait and scored the hit that cost the German ship her fuel. In August 1941 she carried Churchill to meet Roosevelt for the Atlantic Charter.",
+    "fun_fact": "She and HMS Repulse were the first capital ships sunk solely by air power while under way and fighting back at sea.",
+    "image": "hms-prince-of-wales.jpg",
+    "image_credit": "Image: Abrahams, H J · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "hms-duke-of-york",
+    "name": "HMS Duke of York",
+    "nation": "United Kingdom",
+    "class": "King George V-class battleship",
+    "launched": 1940,
+    "fate": "Sold for scrap in 1957",
+    "description": "On 26 December 1943, in Arctic darkness off the North Cape, her radar-directed 14-inch guns crippled the German battleship Scharnhorst, which was then finished off with torpedoes.",
+    "fun_fact": "Her first important task was carrying Winston Churchill across the Atlantic to Washington in December 1941.",
+    "image": "hms-duke-of-york.jpg",
+    "image_credit": "Image: RN official photographer, Parnall C H (Lt) · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "hms-rodney",
+    "name": "HMS Rodney",
+    "nation": "United Kingdom",
+    "class": "Nelson-class battleship",
+    "launched": 1925,
+    "fate": "Sold for scrap in 1948",
+    "description": "One of only two British battleships with 16-inch guns, all nine mounted forward of the bridge. On 27 May 1941 she pounded Bismarck into a wreck at close range, then supported landings from Malta to Normandy.",
+    "fun_fact": "The odd silhouette of Rodney and Nelson reminded sailors of fleet oil tankers, earning them the nicknames \"Rodnol\" and \"Nelsol\".",
+    "image": "hms-rodney.jpg",
+    "image_credit": "Image: Official photographer, Tomlin H W (Lt) · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "hms-nelson",
+    "name": "HMS Nelson",
+    "nation": "United Kingdom",
+    "class": "Nelson-class battleship",
+    "launched": 1925,
+    "fate": "Sold for scrap in 1949",
+    "description": "Built to the limits of the Washington Naval Treaty, with nine 16-inch guns in three turrets all placed forward to save armour weight. She was flagship of the Home Fleet and later of Force H in the Mediterranean.",
+    "fun_fact": "The full Italian armistice was signed in her wardroom off Malta on 29 September 1943 by Eisenhower and Marshal Badoglio.",
+    "image": "hms-nelson.jpg",
+    "image_credit": "Image: Official photographer · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "hms-warspite",
+    "name": "HMS Warspite",
+    "nation": "United Kingdom",
+    "class": "Queen Elizabeth-class battleship",
+    "launched": 1913,
+    "fate": "Ran aground in Cornwall in 1947 on the way to the breakers; scrapped there",
+    "description": "The \"Grand Old Lady\" fought at Jutland in 1916 and then through the Second World War: Narvik, Calabria, Matapan, Crete, Salerno, Normandy and Walcheren.",
+    "fun_fact": "At Calabria in 1940 she hit the Italian battleship Giulio Cesare from about 24 km, one of the longest gunnery hits ever made on a moving ship.",
+    "image": "hms-warspite.jpg",
+    "image_credit": "Image: Oulds, D C (Lt) Royal Navy official · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "hms-queen-elizabeth",
+    "name": "HMS Queen Elizabeth",
+    "nation": "United Kingdom",
+    "class": "Queen Elizabeth-class battleship",
+    "launched": 1913,
+    "fate": "Sold for scrap in 1948",
+    "description": "Lead ship of the first battleships to burn oil instead of coal and carry 15-inch guns. Rebuilt before the war, she served in the Mediterranean and later with the Eastern Fleet against Japan.",
+    "fun_fact": "In December 1941 Italian frogmen riding \"human torpedoes\" slipped into Alexandria harbour and blew a hole in her hull; she settled on the bottom.",
+    "image": "hms-queen-elizabeth.jpg",
+    "image_credit": "Image: Royal Navy official photographer · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "hms-barham",
+    "name": "HMS Barham",
+    "nation": "United Kingdom",
+    "class": "Queen Elizabeth-class battleship",
+    "launched": 1914,
+    "fate": "Torpedoed by U-331 off Egypt on 25 November 1941",
+    "description": "A Jutland veteran that fought at Dakar and Cape Matapan. Struck by three torpedoes at close range, she rolled over and her magazines exploded within minutes; more than 860 men died.",
+    "fun_fact": "A newsreel cameraman on a nearby ship filmed the explosion. The footage is among the best-known film of the war at sea.",
+    "image": "hms-barham.jpg",
+    "image_credit": "Image: U.S. Naval History and Heritage Command · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "hms-royal-oak",
+    "name": "HMS Royal Oak",
+    "nation": "United Kingdom",
+    "class": "Revenge-class battleship",
+    "launched": 1914,
+    "fate": "Torpedoed by U-47 at anchor in Scapa Flow on 14 October 1939",
+    "description": "Six weeks into the war, Günther Prien took U-47 through the block ships guarding the Royal Navy's main base and torpedoed her at night. She capsized in minutes with the loss of more than 830 men.",
+    "fun_fact": "The wreck is a protected war grave. Each year Royal Navy divers place a White Ensign on her upturned hull.",
+    "image": "hms-royal-oak.jpg",
+    "image_credit": "Image: Royal Navy photographer · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "hms-repulse",
+    "name": "HMS Repulse",
+    "nation": "United Kingdom",
+    "class": "Renown-class battlecruiser",
+    "launched": 1916,
+    "fate": "Sunk by Japanese aircraft off Malaya on 10 December 1941",
+    "description": "A fast First World War battlecruiser sent to Singapore with HMS Prince of Wales as Force Z. Without air cover, both were sunk by land-based Japanese bombers and torpedo planes three days after Pearl Harbor.",
+    "fun_fact": "Her captain, William Tennant, dodged well over a dozen torpedoes by hard manoeuvring before a coordinated attack finally caught her.",
+    "image": "hms-repulse.jpg",
+    "image_credit": "Image: Underwood & Underwood · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-iowa",
+    "name": "USS Iowa (BB-61)",
+    "nation": "United States",
+    "class": "Iowa-class battleship",
+    "launched": 1942,
+    "fate": "Museum ship at the Port of Los Angeles",
+    "description": "Lead ship of the last and fastest American battleships, capable of about 33 knots. She screened carrier task forces across the Pacific and returned to service in Korea and again in the 1980s.",
+    "fun_fact": "She carried President Roosevelt across the Atlantic in 1943 on his way to the Tehran Conference, and was fitted with a bathtub for him.",
+    "image": "uss-iowa.jpg",
+    "image_credit": "Image: PH1 Jeff Hilton · Public domain",
+    "focus": [
+      0.78,
+      0.55
+    ]
+  },
+  {
+    "id": "uss-new-jersey",
+    "name": "USS New Jersey (BB-62)",
+    "nation": "United States",
+    "class": "Iowa-class battleship",
+    "launched": 1942,
+    "fate": "Museum ship at Camden, New Jersey",
+    "description": "Flagship of Admirals Spruance and Halsey in the Pacific. She went on to fight in Korea, Vietnam and off Lebanon, earning more battle stars than any other American battleship.",
+    "fun_fact": "She was launched on 7 December 1942, the first anniversary of the attack on Pearl Harbor.",
+    "image": "uss-new-jersey.jpg",
+    "image_credit": "Image: Camera Operator: PH3 BRYANT · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-south-dakota",
+    "name": "USS South Dakota (BB-57)",
+    "nation": "United States",
+    "class": "South Dakota-class battleship",
+    "launched": 1941,
+    "fate": "Sold for scrap in 1962",
+    "description": "Fought at the Battle of the Santa Cruz Islands and in the night battleship action off Guadalcanal in November 1942, where she was hit dozens of times. The press, forbidden to name her, called her \"Battleship X\".",
+    "fun_fact": "One of her gunners at Guadalcanal, Calvin Graham, was twelve years old. He had lied about his age to enlist.",
+    "image": "uss-south-dakota.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-massachusetts",
+    "name": "USS Massachusetts (BB-59)",
+    "nation": "United States",
+    "class": "South Dakota-class battleship",
+    "launched": 1941,
+    "fate": "Museum ship at Fall River, Massachusetts",
+    "description": "During the invasion of North Africa in November 1942 she duelled the unfinished French battleship Jean Bart at Casablanca, then spent the rest of the war in the Pacific.",
+    "fun_fact": "\"Big Mamie\" was saved from the scrapyard in 1965 with the help of donations from Massachusetts schoolchildren.",
+    "image": "uss-massachusetts.jpg",
+    "image_credit": "Image: USN · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-north-carolina",
+    "name": "USS North Carolina (BB-55)",
+    "nation": "United States",
+    "class": "North Carolina-class battleship",
+    "launched": 1940,
+    "fate": "Museum ship at Wilmington, North Carolina",
+    "description": "The first new American battleship in nearly twenty years. She took part in every major Pacific offensive from Guadalcanal to Japan, and survived a submarine torpedo hit in September 1942.",
+    "fun_fact": "So many people came to watch her being shown off during trials that she was nicknamed \"the Showboat\".",
+    "image": "uss-north-carolina.jpg",
+    "image_credit": "Image: USN [United States Navy] · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-washington",
+    "name": "USS Washington (BB-56)",
+    "nation": "United States",
+    "class": "North Carolina-class battleship",
+    "launched": 1940,
+    "fate": "Sold for scrap in 1961",
+    "description": "On the night of 14–15 November 1942 off Guadalcanal, her radar-directed 16-inch guns wrecked the Japanese battleship Kirishima in a few minutes at short range.",
+    "fun_fact": "She was the only American battleship of the war to sink an enemy battleship in a one-on-one gunnery duel.",
+    "image": "uss-washington.jpg",
+    "image_credit": "Image: US Navy · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-west-virginia",
+    "name": "USS West Virginia (BB-48)",
+    "nation": "United States",
+    "class": "Colorado-class battleship",
+    "launched": 1921,
+    "fate": "Sold for scrap in 1959",
+    "description": "Sunk at her berth at Pearl Harbor by aerial torpedoes and bombs, she was raised, completely rebuilt and returned to action in 1944.",
+    "fun_fact": "At Surigao Strait in October 1944 she led the American battle line in the last battleship-against-battleship action in history.",
+    "image": "uss-west-virginia.jpg",
+    "image_credit": "Image: U.S. Navy Bureau of Ships · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-nevada",
+    "name": "USS Nevada (BB-36)",
+    "nation": "United States",
+    "class": "Nevada-class battleship",
+    "launched": 1914,
+    "fate": "Sunk as a target off Hawaii on 31 July 1948",
+    "description": "The only battleship to get under way during the attack on Pearl Harbor. Hit repeatedly, she was beached to avoid blocking the channel. Rebuilt, she bombarded Normandy, southern France, Iwo Jima and Okinawa.",
+    "fun_fact": "After the war she survived two atomic bomb tests at Bikini Atoll. It took naval gunfire and an aerial torpedo to sink her.",
+    "image": "uss-nevada.jpg",
+    "image_credit": "Image: US Navy · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-texas",
+    "name": "USS Texas (BB-35)",
+    "nation": "United States",
+    "class": "New York-class battleship",
+    "launched": 1912,
+    "fate": "Museum ship in Texas",
+    "description": "A veteran of both world wars. In the second she supported the landings in North Africa, Normandy, southern France, Iwo Jima and Okinawa. She is the last surviving dreadnought battleship.",
+    "fun_fact": "Off Normandy her crew flooded part of the hull to make the ship list, raising her guns enough to reach targets farther inland.",
+    "image": "uss-texas.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-oklahoma",
+    "name": "USS Oklahoma (BB-37)",
+    "nation": "United States",
+    "class": "Nevada-class battleship",
+    "launched": 1914,
+    "fate": "Capsized at Pearl Harbor on 7 December 1941; sank under tow in 1947",
+    "description": "Hit by several aerial torpedoes in the first minutes of the attack on Pearl Harbor, she rolled over at her berth. 429 of her crew died, the second-highest loss of the day.",
+    "fun_fact": "Rescuers cut through the upturned hull and pulled out 32 trapped men alive over the following two days.",
+    "image": "uss-oklahoma.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "musashi",
+    "name": "Musashi",
+    "nation": "Japan",
+    "class": "Yamato-class battleship",
+    "launched": 1940,
+    "fate": "Sunk by US carrier aircraft in the Sibuyan Sea on 24 October 1944",
+    "description": "Sister of Yamato and, with her, the largest battleship ever built, armed with nine 46 cm guns. During the Battle of Leyte Gulf she absorbed an estimated 19 torpedoes and 17 bombs before sinking.",
+    "fun_fact": "She was built at Nagasaki behind enormous curtains of rope so that nobody in the hills above the shipyard could see her.",
+    "image": "musashi.jpg",
+    "image_credit": "Image: Lieutenant Tobei Shiraishi · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "nagato",
+    "name": "Nagato",
+    "nation": "Japan",
+    "class": "Nagato-class battleship",
+    "launched": 1919,
+    "fate": "Sunk by the Bikini Atoll atomic bomb tests in July 1946",
+    "description": "The first battleship in the world armed with 16-inch (41 cm) guns. She was Admiral Yamamoto's flagship during the attack on Pearl Harbor and the only Japanese battleship still afloat at the surrender.",
+    "fun_fact": "The order to attack Pearl Harbor, \"Niitaka yama nobore\" (Climb Mount Niitaka), was transmitted from her.",
+    "image": "nagato.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "mutsu",
+    "name": "Mutsu",
+    "nation": "Japan",
+    "class": "Nagato-class battleship",
+    "launched": 1920,
+    "fate": "Destroyed by a magazine explosion at Hashirajima on 8 June 1943",
+    "description": "Sister ship of Nagato. She saw little action before an explosion in her after magazine tore her in two at her mooring in the Inland Sea, killing more than 1,100 men. The cause was never established.",
+    "fun_fact": "Japan kept her at the Washington naval talks only by claiming she was complete; in return other powers were allowed extra ships.",
+    "image": "mutsu.jpg",
+    "image_credit": "Image: user:Akagi · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "kongo",
+    "name": "Kongō",
+    "nation": "Japan",
+    "class": "Kongō-class battlecruiser / fast battleship",
+    "launched": 1912,
+    "fate": "Torpedoed by the submarine USS Sealion in the Formosa Strait, 21 November 1944",
+    "description": "Designed and built in Britain by Vickers, then rebuilt twice in Japan into a 30-knot battleship. She bombarded Henderson Field on Guadalcanal and fought off Samar in 1944.",
+    "fun_fact": "She was the last Japanese capital ship built abroad, and the only Japanese battleship sunk by a submarine.",
+    "image": "kongo.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "kirishima",
+    "name": "Kirishima",
+    "nation": "Japan",
+    "class": "Kongō-class battlecruiser / fast battleship",
+    "launched": 1913,
+    "fate": "Sunk off Guadalcanal on 15 November 1942",
+    "description": "She escorted the carriers that struck Pearl Harbor. In the second night battle off Guadalcanal she damaged USS South Dakota before USS Washington shattered her with 16-inch shells at close range.",
+    "fun_fact": "Her wreck, found in 1992 by Robert Ballard, lies upside down with the bow section missing.",
+    "image": "kirishima.jpg",
+    "image_credit": "Image: Shizuo Fukui · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "fuso",
+    "name": "Fusō",
+    "nation": "Japan",
+    "class": "Fusō-class battleship",
+    "launched": 1914,
+    "fate": "Sunk in Surigao Strait on 25 October 1944",
+    "description": "When completed she was the most heavily armed battleship in the world, with twelve 14-inch guns in six turrets. She was sunk by American destroyer torpedoes at Leyte Gulf with almost her entire crew.",
+    "fun_fact": "Her towering \"pagoda\" bridge, piled up during 1930s rebuilds, rose about 40 metres above the waterline.",
+    "image": "fuso.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "yamashiro",
+    "name": "Yamashiro",
+    "nation": "Japan",
+    "class": "Fusō-class battleship",
+    "launched": 1915,
+    "fate": "Sunk in Surigao Strait on 25 October 1944",
+    "description": "Flagship of Vice Admiral Nishimura at Leyte Gulf. She steamed into a line of six American battleships, five of them survivors of Pearl Harbor, and was destroyed by gunfire and torpedoes.",
+    "fun_fact": "Her loss came in the last action ever fought between battleships.",
+    "image": "yamashiro.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "ise",
+    "name": "Ise",
+    "nation": "Japan",
+    "class": "Ise-class battleship, later hybrid carrier",
+    "launched": 1916,
+    "fate": "Sunk in shallow water near Kure by US carrier aircraft in July 1945",
+    "description": "After Japan's carrier losses at Midway, her two after turrets were replaced by a hangar and short flight deck meant for 22 aircraft, making her half battleship, half aircraft carrier.",
+    "fun_fact": "She never carried her aircraft into battle: by the time the conversion was finished there were not enough planes or pilots.",
+    "image": "ise.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "littorio",
+    "name": "Littorio",
+    "nation": "Italy",
+    "class": "Littorio-class battleship",
+    "launched": 1937,
+    "fate": "Surrendered in 1943; scrapped after the war",
+    "description": "Lead ship of Italy's modern 15-inch-gun battleships. She was torpedoed three times in the British air raid on Taranto in November 1940, repaired, and fought in the convoy battles of 1942.",
+    "fun_fact": "After the fall of Mussolini she was renamed Italia, since Littorio referred to the Fascist lictor's emblem.",
+    "image": "littorio.jpg",
+    "image_credit": "Image: Bundesarchiv, Bild 183-S54286 · CC BY-SA 3.0 DE",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "roma",
+    "name": "Roma",
+    "nation": "Italy",
+    "class": "Littorio-class battleship",
+    "launched": 1940,
+    "fate": "Sunk by German guided bombs off Sardinia on 9 September 1943",
+    "description": "Italy's newest battleship, in service for barely a year. As the fleet sailed to surrender to the Allies, German bombers hit her with two Fritz X radio-controlled bombs; she blew up with about 1,400 men.",
+    "fun_fact": "She was the first capital ship ever sunk by a precision-guided weapon.",
+    "image": "roma.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "giulio-cesare",
+    "name": "Giulio Cesare",
+    "nation": "Italy",
+    "class": "Conte di Cavour-class battleship",
+    "launched": 1911,
+    "fate": "Given to the USSR as Novorossiysk; sank after an explosion at Sevastopol in 1955",
+    "description": "A First World War dreadnought so thoroughly rebuilt in the 1930s that little but the hull remained. She was hit by HMS Warspite at Calabria in 1940 and later used mainly for convoy cover and training.",
+    "fun_fact": "Her loss in Soviet service in 1955, probably to a leftover German mine, killed more than 600 men.",
+    "image": "giulio-cesare.jpg",
+    "image_credit": "Image: An unknown serviceman of the Regia Marina · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "richelieu",
+    "name": "Richelieu",
+    "nation": "France",
+    "class": "Richelieu-class battleship",
+    "launched": 1939,
+    "fate": "Scrapped in 1968",
+    "description": "France's most powerful battleship, with eight 15-inch guns in two quadruple turrets forward. She escaped the German advance unfinished, fought the British at Dakar in 1940, then joined the Allies.",
+    "fun_fact": "After a refit in New York in 1943 she served with the British fleets in the Indian Ocean.",
+    "image": "richelieu.jpg",
+    "image_credit": "Image: U.S. Navy photo 80-G-78789 · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "jean-bart",
+    "name": "Jean Bart",
+    "nation": "France",
+    "class": "Richelieu-class battleship",
+    "launched": 1940,
+    "fate": "Scrapped in 1970",
+    "description": "In June 1940 she sailed from Saint-Nazaire about three-quarters complete, hours ahead of German troops, and reached Casablanca. There she was damaged by USS Massachusetts in November 1942.",
+    "fun_fact": "Finally completed in the 1950s, she was the last battleship in the world to enter service.",
+    "image": "jean-bart.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "dunkerque",
+    "name": "Dunkerque",
+    "nation": "France",
+    "class": "Dunkerque-class fast battleship",
+    "launched": 1935,
+    "fate": "Scuttled at Toulon on 27 November 1942",
+    "description": "Built to hunt German \"pocket battleships\", with all eight 13-inch guns in two quadruple turrets forward. She was badly damaged by the British attack on the French fleet at Mers-el-Kébir in July 1940.",
+    "fun_fact": "Her main armament was concentrated forward so that the heavily armoured part of the hull could be kept short.",
+    "image": "dunkerque.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "marat",
+    "name": "Marat",
+    "nation": "Soviet Union",
+    "class": "Gangut-class battleship",
+    "launched": 1911,
+    "fate": "Bow destroyed by dive bombers in 1941; used as a floating battery; scrapped 1953",
+    "description": "Launched as the Imperial Russian dreadnought Petropavlovsk. At Kronstadt on 23 September 1941 a heavy bomb detonated her forward magazine, but she settled in shallow water and kept firing in defence of Leningrad.",
+    "fun_fact": "The bomb is credited to Stuka pilot Hans-Ulrich Rudel.",
+    "image": "marat.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-yorktown-cv5",
+    "name": "USS Yorktown (CV-5)",
+    "nation": "United States",
+    "class": "Yorktown-class aircraft carrier",
+    "launched": 1936,
+    "fate": "Sunk by the submarine I-168 on 7 June 1942 after the Battle of Midway",
+    "description": "Damaged at the Coral Sea, she was patched up at Pearl Harbor in about three days and rushed to Midway, where her aircraft helped sink the carriers Sōryū and Hiryū before she was crippled herself.",
+    "fun_fact": "Her wreck was found in 1998, upright and remarkably intact, more than 5,000 metres down.",
+    "image": "uss-yorktown-cv5.jpg",
+    "image_credit": "Image: U.S. Navy photo 19-N-17424 · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-hornet-cv8",
+    "name": "USS Hornet (CV-8)",
+    "nation": "United States",
+    "class": "Yorktown-class aircraft carrier",
+    "launched": 1940,
+    "fate": "Sunk at the Battle of the Santa Cruz Islands on 27 October 1942",
+    "description": "In April 1942 she launched Jimmy Doolittle's sixteen Army B-25 bombers against Tokyo. She fought at Midway and was for a time the only operational American carrier in the South Pacific.",
+    "fun_fact": "She was in commission for just over one year. Asked where the Tokyo raiders had come from, Roosevelt answered \"Shangri-La\".",
+    "image": "uss-hornet-cv8.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-lexington-cv2",
+    "name": "USS Lexington (CV-2)",
+    "nation": "United States",
+    "class": "Lexington-class aircraft carrier",
+    "launched": 1925,
+    "fate": "Lost at the Battle of the Coral Sea on 8 May 1942",
+    "description": "Begun as a battlecruiser and completed as one of the first large American carriers. At the Coral Sea, the first battle fought entirely between carriers, fuel vapour explosions doomed her after torpedo hits.",
+    "fun_fact": "In the winter of 1929–30 her turbo-electric machinery supplied the city of Tacoma with power for a month during a drought.",
+    "image": "uss-lexington-cv2.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-saratoga",
+    "name": "USS Saratoga (CV-3)",
+    "nation": "United States",
+    "class": "Lexington-class aircraft carrier",
+    "launched": 1925,
+    "fate": "Sunk by the Bikini Atoll atomic bomb tests on 25 July 1946",
+    "description": "One of only three pre-war American fleet carriers to survive the war. She was torpedoed twice by submarines in 1942, fought off Guadalcanal and Rabaul, and was badly hit by kamikazes off Iwo Jima.",
+    "fun_fact": "Her wreck in Bikini lagoon is shallow enough for divers to visit, with aircraft still in the hangar.",
+    "image": "uss-saratoga.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-wasp-cv7",
+    "name": "USS Wasp (CV-7)",
+    "nation": "United States",
+    "class": "Wasp-class aircraft carrier",
+    "launched": 1939,
+    "fate": "Torpedoed by the submarine I-19 off Guadalcanal on 15 September 1942",
+    "description": "A small carrier built with the tonnage left over under the naval treaties. In 1942 she twice ferried RAF Spitfires to besieged Malta before moving to the Pacific for the Guadalcanal landings.",
+    "fun_fact": "After her second Malta run Churchill signalled: \"Who said a wasp couldn't sting twice?\"",
+    "image": "uss-wasp-cv7.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-ranger",
+    "name": "USS Ranger (CV-4)",
+    "nation": "United States",
+    "class": "Aircraft carrier",
+    "launched": 1933,
+    "fate": "Sold for scrap in 1947",
+    "description": "The first American ship designed and built as an aircraft carrier from the keel up. Too slow and lightly protected for the Pacific, she served in the Atlantic, covering the invasion of North Africa.",
+    "fun_fact": "In October 1943 her aircraft raided German shipping in Norway, the only American carrier strike in northern European waters.",
+    "image": "uss-ranger.jpg",
+    "image_credit": "Image: U.S. Navy · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-essex",
+    "name": "USS Essex (CV-9)",
+    "nation": "United States",
+    "class": "Essex-class aircraft carrier",
+    "launched": 1942,
+    "fate": "Decommissioned in 1969 and scrapped in the 1970s",
+    "description": "Lead ship of the carriers that won the Pacific air war. She fought from Marcus Island in 1943 to the final strikes on Japan and survived a kamikaze hit in November 1944.",
+    "fun_fact": "Twenty-four Essex-class carriers were completed and not one was ever sunk.",
+    "image": "uss-essex.jpg",
+    "image_credit": "Image: Photographer: PHCS Jackman, U.S. Navy · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-intrepid",
+    "name": "USS Intrepid (CV-11)",
+    "nation": "United States",
+    "class": "Essex-class aircraft carrier",
+    "launched": 1943,
+    "fate": "Museum ship in New York City",
+    "description": "Fought at Truk, Leyte Gulf, where her aircraft helped sink Musashi, and Okinawa. She was torpedoed once and hit by several kamikazes, yet returned to action each time.",
+    "fun_fact": "After the 1944 torpedo hit jammed her rudder, the crew rigged a sail of canvas and hatch covers on the bow to help steer her home.",
+    "image": "uss-intrepid.jpg",
+    "image_credit": "Image: U.S. Navy · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-franklin",
+    "name": "USS Franklin (CV-13)",
+    "nation": "United States",
+    "class": "Essex-class aircraft carrier",
+    "launched": 1943,
+    "fate": "Sold for scrap in 1966",
+    "description": "On 19 March 1945, off Japan, two bombs struck among fuelled and armed aircraft. Fires and explosions killed more than 800 of her crew, but the survivors saved the ship.",
+    "fun_fact": "She steamed some 12,000 miles to New York under her own power, the most heavily damaged American carrier to survive the war.",
+    "image": "uss-franklin.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-bunker-hill",
+    "name": "USS Bunker Hill (CV-17)",
+    "nation": "United States",
+    "class": "Essex-class aircraft carrier",
+    "launched": 1942,
+    "fate": "Sold for scrap in 1973",
+    "description": "A veteran of nearly every carrier operation from Rabaul to Okinawa. On 11 May 1945, while flagship of Admiral Mitscher, she was hit by two kamikazes within about half a minute.",
+    "fun_fact": "Almost 400 of her crew died in the attack, many of them pilots waiting in their ready rooms.",
+    "image": "uss-bunker-hill.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-yorktown-cv10",
+    "name": "USS Yorktown (CV-10)",
+    "nation": "United States",
+    "class": "Essex-class aircraft carrier",
+    "launched": 1943,
+    "fate": "Museum ship at Patriots Point, Mount Pleasant, South Carolina",
+    "description": "Renamed while under construction in honour of the carrier lost at Midway. The \"Fighting Lady\" took part in the Pacific offensive from late 1943 and her aircraft helped sink the battleship Yamato.",
+    "fun_fact": "In December 1968 she recovered the crew of Apollo 8, the first people to orbit the Moon.",
+    "image": "uss-yorktown-cv10.jpg",
+    "image_credit": "Image: U.S. Navy · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-langley",
+    "name": "USS Langley (CV-1)",
+    "nation": "United States",
+    "class": "Aircraft carrier, later seaplane tender",
+    "launched": 1912,
+    "fate": "Bombed south of Java on 27 February 1942 and scuttled",
+    "description": "The US Navy's first aircraft carrier, converted in 1920–22 from the collier Jupiter. By 1942 she was a seaplane tender, and was lost while ferrying Army fighters to Java.",
+    "fun_fact": "Her flat wooden flight deck, built over the old coal-handling gear, earned her the nickname \"the Covered Wagon\".",
+    "image": "uss-langley.jpg",
+    "image_credit": "Image: U.S. Navy photo 80-G-460108 · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-independence",
+    "name": "USS Independence (CVL-22)",
+    "nation": "United States",
+    "class": "Independence-class light aircraft carrier",
+    "launched": 1942,
+    "fate": "Atomic test target; scuttled off California in 1951",
+    "description": "First of nine light carriers hurriedly built on cruiser hulls to fill the gap until the Essex class arrived. She pioneered night carrier operations in the Pacific.",
+    "fun_fact": "She survived both Bikini atomic tests. Her wreck was found in 2015, still upright, off the Farallon Islands.",
+    "image": "uss-independence.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-princeton",
+    "name": "USS Princeton (CVL-23)",
+    "nation": "United States",
+    "class": "Independence-class light aircraft carrier",
+    "launched": 1942,
+    "fate": "Lost in the Battle of Leyte Gulf on 24 October 1944",
+    "description": "A single bomb from a lone Japanese dive bomber started fires in her hangar that her crew fought for hours. A huge explosion in her after magazine finally doomed her.",
+    "fun_fact": "That explosion killed more men aboard the cruiser USS Birmingham, alongside to help fight the fires, than on Princeton herself.",
+    "image": "uss-princeton.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-gambier-bay",
+    "name": "USS Gambier Bay (CVE-73)",
+    "nation": "United States",
+    "class": "Casablanca-class escort carrier",
+    "launched": 1943,
+    "fate": "Sunk by Japanese naval gunfire off Samar on 25 October 1944",
+    "description": "One of the small, slow \"jeep carriers\" of Taffy 3 that were surprised by a Japanese force of battleships and heavy cruisers during the Battle of Leyte Gulf.",
+    "fun_fact": "She was the only American aircraft carrier sunk by surface gunfire in the Second World War.",
+    "image": "uss-gambier-bay.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-st-lo",
+    "name": "USS St. Lo (CVE-63)",
+    "nation": "United States",
+    "class": "Casablanca-class escort carrier",
+    "launched": 1943,
+    "fate": "Sunk by a kamikaze off Samar on 25 October 1944",
+    "description": "She survived the gunfire of Japanese battleships and cruisers off Samar, only to be struck later that morning by a Zero that dived through her flight deck and set off the bombs and torpedoes in her hangar.",
+    "fun_fact": "She was the first major warship sunk by a kamikaze. She had been renamed from Midway only two weeks earlier.",
+    "image": "uss-st-lo.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-bogue",
+    "name": "USS Bogue (CVE-9)",
+    "nation": "United States",
+    "class": "Bogue-class escort carrier",
+    "launched": 1942,
+    "fate": "Sold for scrap in 1960",
+    "description": "Converted from a merchant hull, she formed the centre of the first American \"hunter-killer\" group, which roamed the Atlantic in search of U-boats instead of staying close to the convoys.",
+    "fun_fact": "Her aircraft and escorts were credited with sinking thirteen submarines, two of them Japanese.",
+    "image": "uss-bogue.jpg",
+    "image_credit": "Image: U.S. Navy · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "hms-ark-royal",
+    "name": "HMS Ark Royal",
+    "nation": "United Kingdom",
+    "class": "Aircraft carrier",
+    "launched": 1937,
+    "fate": "Torpedoed by U-81 on 13 November 1941; sank off Gibraltar the next day",
+    "description": "The Royal Navy's first modern fleet carrier. Her Swordfish biplanes put the torpedo into Bismarck's stern that jammed the rudders, and she repeatedly flew fighters off to Malta.",
+    "fun_fact": "German radio claimed to have sunk her so often that \"Where is the Ark Royal?\" became a standing joke. Only one man died when she really sank.",
+    "image": "hms-ark-royal.jpg",
+    "image_credit": "Image: US Navy · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "hms-illustrious",
+    "name": "HMS Illustrious",
+    "nation": "United Kingdom",
+    "class": "Illustrious-class aircraft carrier",
+    "launched": 1939,
+    "fate": "Sold for scrap in 1956",
+    "description": "The first carrier with an armoured flight deck. On the night of 11 November 1940 her Swordfish torpedo bombers attacked the Italian fleet in harbour at Taranto and disabled three battleships.",
+    "fun_fact": "Two months later she was hit by several heavy bombs from German dive bombers off Malta and survived, thanks largely to that armour.",
+    "image": "hms-illustrious.jpg",
+    "image_credit": "Image: Municipal Archives of Trondheim · CC BY 2.0",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "hms-victorious",
+    "name": "HMS Victorious",
+    "nation": "United Kingdom",
+    "class": "Illustrious-class aircraft carrier",
+    "launched": 1939,
+    "fate": "Sold for scrap in 1969",
+    "description": "Her aircraft attacked Bismarck and Tirpitz, covered Arctic and Malta convoys, and flew against Japan with the British Pacific Fleet, where her armoured deck shrugged off kamikaze hits.",
+    "fun_fact": "In 1943 she was lent to the US Navy in the Pacific, operating under the code name \"USS Robin\".",
+    "image": "hms-victorious.jpg",
+    "image_credit": "Image: U.S. Navy · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "hms-formidable",
+    "name": "HMS Formidable",
+    "nation": "United Kingdom",
+    "class": "Illustrious-class aircraft carrier",
+    "launched": 1939,
+    "fate": "Sold for scrap in 1953",
+    "description": "Her torpedo bombers crippled the Italian fleet's cruiser Pola before the night battle of Cape Matapan. She was badly bombed off Crete, and in 1945 survived two kamikaze hits off Okinawa.",
+    "fun_fact": "On launch day in Belfast she slid down the slipway before the ceremony began, earning the name \"the ship that launched herself\".",
+    "image": "hms-formidable.jpg",
+    "image_credit": "Image: Oulds D C (Lt), Official photographer · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "hms-courageous",
+    "name": "HMS Courageous",
+    "nation": "United Kingdom",
+    "class": "Courageous-class aircraft carrier",
+    "launched": 1916,
+    "fate": "Torpedoed by U-29 south-west of Ireland on 17 September 1939",
+    "description": "Built in the First World War as a lightly armoured \"large light cruiser\" with 15-inch guns and converted to a carrier in the 1920s. She was hunting submarines when one found her.",
+    "fun_fact": "She was the first British warship lost in the Second World War, two weeks after it began.",
+    "image": "hms-courageous.jpg",
+    "image_credit": "Image: Oscar Parkes · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "hms-glorious",
+    "name": "HMS Glorious",
+    "nation": "United Kingdom",
+    "class": "Courageous-class aircraft carrier",
+    "launched": 1916,
+    "fate": "Sunk by Scharnhorst and Gneisenau off Norway on 8 June 1940",
+    "description": "Returning from the evacuation of Norway with RAF fighters on board and no aircraft aloft, she was caught by two German battleships. Her escorts Ardent and Acasta were sunk defending her.",
+    "fun_fact": "Scharnhorst hit her at about 24 km, one of the longest-range gunnery hits ever recorded. More than 1,500 men were lost.",
+    "image": "hms-glorious.jpg",
+    "image_credit": "Image: Royal Navy official photographer · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "hms-eagle",
+    "name": "HMS Eagle",
+    "nation": "United Kingdom",
+    "class": "Aircraft carrier",
+    "launched": 1918,
+    "fate": "Torpedoed by U-73 in the Mediterranean on 11 August 1942",
+    "description": "Her aircraft fought in the Mediterranean from 1940, and in 1942 she flew off nearly 200 Spitfires to Malta. She was sunk within minutes while escorting the Pedestal convoy to the island.",
+    "fun_fact": "She was laid down as the battleship Almirante Cochrane for Chile and bought by Britain during the First World War.",
+    "image": "hms-eagle.jpg",
+    "image_credit": "Image: U.S. Navy · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "hms-hermes",
+    "name": "HMS Hermes",
+    "nation": "United Kingdom",
+    "class": "Aircraft carrier",
+    "launched": 1919,
+    "fate": "Sunk by Japanese carrier aircraft off Ceylon on 9 April 1942",
+    "description": "Small and slow by 1939, she served in the South Atlantic and Indian Ocean. During the Japanese raid on Ceylon she was caught without her aircraft and sunk by dozens of dive bombers.",
+    "fun_fact": "She was the first ship in the world to be designed and laid down as an aircraft carrier.",
+    "image": "hms-hermes.jpg",
+    "image_credit": "Image: U.S. Navy · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "hms-furious",
+    "name": "HMS Furious",
+    "nation": "United Kingdom",
+    "class": "Aircraft carrier",
+    "launched": 1916,
+    "fate": "Sold for scrap in 1948",
+    "description": "Designed as a cruiser with two 18-inch guns, she was altered again and again into a full carrier. In the Second World War she flew fighters to Malta and attacked Tirpitz in Norway.",
+    "fun_fact": "In August 1917 Edwin Dunning landed a Sopwith Pup on her deck, the first landing of an aircraft on a moving ship.",
+    "image": "hms-furious.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "kaga",
+    "name": "Kaga",
+    "nation": "Japan",
+    "class": "Aircraft carrier (converted battleship)",
+    "launched": 1921,
+    "fate": "Scuttled after US dive-bomber hits at the Battle of Midway, 4 June 1942",
+    "description": "Begun as a battleship and converted under the Washington Naval Treaty. With Akagi she formed the First Carrier Division that led the attack on Pearl Harbor.",
+    "fun_fact": "She took the place of a battlecruiser hull wrecked in the 1923 Tokyo earthquake. Her wreck was found in 2019 at about 5,400 metres.",
+    "image": "kaga.jpg",
+    "image_credit": "Image: Mr Fukami · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "soryu",
+    "name": "Sōryū",
+    "nation": "Japan",
+    "class": "Aircraft carrier",
+    "launched": 1935,
+    "fate": "Sunk by US dive bombers at the Battle of Midway, 4 June 1942",
+    "description": "A fast, lightly built carrier that set the pattern for later Japanese designs. She struck Pearl Harbor, Wake Island, Darwin and Ceylon before being hit by three bombs from USS Yorktown's aircraft.",
+    "fun_fact": "Her name means \"Blue Dragon\"; her near-sister Hiryū was the \"Flying Dragon\".",
+    "image": "soryu.jpg",
+    "image_credit": "Image: see LICENSES.md · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "hiryu",
+    "name": "Hiryū",
+    "nation": "Japan",
+    "class": "Aircraft carrier",
+    "launched": 1937,
+    "fate": "Scuttled on 5 June 1942 after the Battle of Midway",
+    "description": "The only Japanese carrier to survive the first American strike at Midway. Her aircraft crippled USS Yorktown before she too was found and set ablaze by dive bombers.",
+    "fun_fact": "She was one of only two carriers ever built with the island on the port side. Akagi was the other.",
+    "image": "hiryu.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "shokaku",
+    "name": "Shōkaku",
+    "nation": "Japan",
+    "class": "Shōkaku-class aircraft carrier",
+    "launched": 1939,
+    "fate": "Torpedoed by the submarine USS Cavalla on 19 June 1944",
+    "description": "With her sister Zuikaku she was the best carrier in the world when completed. She attacked Pearl Harbor and fought at the Coral Sea, the Eastern Solomons and Santa Cruz, surviving heavy bomb damage.",
+    "fun_fact": "Her name means \"Soaring Crane\".",
+    "image": "shokaku.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "zuikaku",
+    "name": "Zuikaku",
+    "nation": "Japan",
+    "class": "Shōkaku-class aircraft carrier",
+    "launched": 1939,
+    "fate": "Sunk by US carrier aircraft off Cape Engaño on 25 October 1944",
+    "description": "The \"Auspicious Crane\" fought in nearly every carrier battle of the Pacific War except Midway. At Leyte Gulf she was sacrificed as a decoy with almost no aircraft on board.",
+    "fun_fact": "She was the last survivor of the six carriers that had attacked Pearl Harbor.",
+    "image": "zuikaku.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "shinano",
+    "name": "Shinano",
+    "nation": "Japan",
+    "class": "Aircraft carrier (converted Yamato-class hull)",
+    "launched": 1944,
+    "fate": "Torpedoed by the submarine USS Archerfish on 29 November 1944",
+    "description": "The third Yamato-class battleship hull, completed as a huge support carrier. She was sunk on her first voyage, with watertight doors unfinished and an inexperienced crew.",
+    "fun_fact": "She was in commission for ten days, and is the largest warship ever sunk by a submarine.",
+    "image": "shinano.jpg",
+    "image_credit": "Image: Marine engineer Hiroshi Arakawa · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "ryujo",
+    "name": "Ryūjō",
+    "nation": "Japan",
+    "class": "Light aircraft carrier",
+    "launched": 1931,
+    "fate": "Sunk by US carrier aircraft at the Eastern Solomons on 24 August 1942",
+    "description": "A small carrier squeezed into a treaty loophole, top-heavy and twice rebuilt. She covered the invasions of the Philippines and the Dutch East Indies and the Aleutian operation.",
+    "fun_fact": "A Zero from her air group crash-landed almost intact on Akutan Island in 1942, giving the Americans a flyable example to study.",
+    "image": "ryujo.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "hosho",
+    "name": "Hōshō",
+    "nation": "Japan",
+    "class": "Aircraft carrier",
+    "launched": 1921,
+    "fate": "Survived the war; scrapped in 1946–47",
+    "description": "Commissioned in December 1922, she was the first ship in the world designed as an aircraft carrier to be completed. She saw brief service at Midway and then trained pilots in home waters.",
+    "fun_fact": "After the surrender she ferried tens of thousands of Japanese servicemen and civilians home from overseas.",
+    "image": "hosho.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "zuiho",
+    "name": "Zuihō",
+    "nation": "Japan",
+    "class": "Zuihō-class light aircraft carrier",
+    "launched": 1936,
+    "fate": "Sunk by US carrier aircraft off Cape Engaño on 25 October 1944",
+    "description": "Laid down as a submarine tender designed for quick conversion to a carrier. She fought at Santa Cruz and the Philippine Sea before being lost with the decoy force at Leyte Gulf.",
+    "fun_fact": "In her last battle her flight deck was painted to look like a battleship, with false gun turrets.",
+    "image": "zuiho.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "shoho",
+    "name": "Shōhō",
+    "nation": "Japan",
+    "class": "Zuihō-class light aircraft carrier",
+    "launched": 1935,
+    "fate": "Sunk by US carrier aircraft in the Coral Sea on 7 May 1942",
+    "description": "Converted from the submarine tender Tsurugizaki. She was covering the invasion force bound for Port Moresby when aircraft from Lexington and Yorktown overwhelmed her.",
+    "fun_fact": "She was the first Japanese carrier lost in the war. The American strike leader radioed: \"Scratch one flat top!\"",
+    "image": "shoho.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "graf-zeppelin",
+    "name": "Graf Zeppelin",
+    "nation": "Germany",
+    "class": "Graf Zeppelin-class aircraft carrier",
+    "launched": 1938,
+    "fate": "Never completed; sunk as a Soviet target in the Baltic in 1947",
+    "description": "Germany's only aircraft carrier was about 85 per cent complete when work stopped in 1940. Rivalry between the navy and the Luftwaffe and shifting priorities meant she never went to sea under her own flag.",
+    "fun_fact": "Her wreck was found by a Polish survey ship in 2006.",
+    "image": "graf-zeppelin.jpg",
+    "image_credit": "Image: U.S. Navy · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "aquila",
+    "name": "Aquila",
+    "nation": "Italy",
+    "class": "Aircraft carrier (converted ocean liner)",
+    "launched": 1926,
+    "fate": "Never completed; scrapped in 1952",
+    "description": "Italy began converting the liner Roma into a carrier in 1941, after the lack of air cover at sea had cost the fleet dearly. She was nearly ready for trials when Italy surrendered in 1943.",
+    "fun_fact": "In 1945 Italian frogmen fighting for the Allies attacked her at Genoa to stop the Germans sinking her as a blockship.",
+    "image": "aquila.jpg",
+    "image_credit": "Image: USN · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "admiral-graf-spee",
+    "name": "Admiral Graf Spee",
+    "nation": "Germany",
+    "class": "Deutschland-class \"pocket battleship\"",
+    "launched": 1934,
+    "fate": "Scuttled off Montevideo, Uruguay, on 17 December 1939",
+    "description": "A commerce raider with 11-inch guns that sank nine merchant ships in the South Atlantic and Indian Ocean. Damaged by three British cruisers at the Battle of the River Plate, she took refuge in neutral Montevideo.",
+    "fun_fact": "Not one merchant seaman died in the sinking of her nine victims. Her captain, Hans Langsdorff, shot himself three days after scuttling her.",
+    "image": "admiral-graf-spee.jpg",
+    "image_credit": "Image: Bundesarchiv, DVM 10 Bild-23-63-06 · CC BY-SA 3.0 DE",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "admiral-scheer",
+    "name": "Admiral Scheer",
+    "nation": "Germany",
+    "class": "Deutschland-class \"pocket battleship\"",
+    "launched": 1933,
+    "fate": "Capsized by RAF bombs at Kiel on 9 April 1945",
+    "description": "The most successful German surface raider among the big warships. On a five-month cruise in 1940–41 she reached the Indian Ocean, sinking the armed merchant cruiser Jervis Bay and sixteen merchant ships.",
+    "fun_fact": "Her wreck was never fully removed. It lies buried under a filled-in dock basin, now a car park, in Kiel.",
+    "image": "admiral-scheer.jpg",
+    "image_credit": "Image: U.S. Navy · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "deutschland",
+    "name": "Deutschland (Lützow)",
+    "nation": "Germany",
+    "class": "Deutschland-class \"pocket battleship\"",
+    "launched": 1931,
+    "fate": "Scuttled in 1945; raised by the USSR and sunk as a target in 1947",
+    "description": "First of the \"pocket battleships\", built within the Versailles limit of 10,000 tons on paper, with diesel engines and six 11-inch guns: faster than any battleship and stronger than any cruiser of her day.",
+    "fun_fact": "In 1940 she was renamed Lützow, because Hitler feared the effect on morale if a ship called \"Germany\" were sunk.",
+    "image": "deutschland.jpg",
+    "image_credit": "Image: Heinrich Hoffman Collection · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "prinz-eugen",
+    "name": "Prinz Eugen",
+    "nation": "Germany",
+    "class": "Admiral Hipper-class heavy cruiser",
+    "launched": 1938,
+    "fate": "Capsized at Kwajalein Atoll on 22 December 1946 after the Bikini atomic tests",
+    "description": "Bismarck's consort in the Denmark Strait, where her shells were the first to hit HMS Hood. She took part in the Channel Dash of 1942 and ended the war shelling Soviet troops on the Baltic coast.",
+    "fun_fact": "She survived both atomic tests at Bikini. Her upturned stern still shows above the water, and one propeller is on display in Germany.",
+    "image": "prinz-eugen.jpg",
+    "image_credit": "Image: U.S. Navy · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "admiral-hipper",
+    "name": "Admiral Hipper",
+    "nation": "Germany",
+    "class": "Admiral Hipper-class heavy cruiser",
+    "launched": 1937,
+    "fate": "Scuttled in dry dock at Kiel in May 1945",
+    "description": "Led the assault on Trondheim in April 1940, raided Atlantic convoys in 1941 and fought in the Battle of the Barents Sea, whose failure made Hitler threaten to scrap the whole surface fleet.",
+    "fun_fact": "On the way to Norway she was rammed by the British destroyer HMS Glowworm, which tore away 40 metres of her armour belt.",
+    "image": "admiral-hipper.jpg",
+    "image_credit": "Image: Bundesarchiv, DVM 10 Bild-23-63-24 · CC BY-SA 3.0 DE",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "blucher",
+    "name": "Blücher",
+    "nation": "Germany",
+    "class": "Admiral Hipper-class heavy cruiser",
+    "launched": 1937,
+    "fate": "Sunk in the Oslofjord by Oscarsborg Fortress on 9 April 1940",
+    "description": "Brand new, she led the force sent to seize Oslo. At the Drøbak Narrows she was wrecked at point-blank range by the guns and shore-mounted torpedoes of an old Norwegian fortress.",
+    "fun_fact": "The fortress guns were Krupp weapons from the 1890s and the torpedoes were about forty years old. The delay let Norway's king and government escape.",
+    "image": "blucher.jpg",
+    "image_credit": "Image: Bundesarchiv, DVM 10 Bild-23-63-09 · CC BY-SA 3.0 DE",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "konigsberg",
+    "name": "Königsberg",
+    "nation": "Germany",
+    "class": "Königsberg-class light cruiser",
+    "launched": 1927,
+    "fate": "Sunk by British dive bombers at Bergen on 10 April 1940",
+    "description": "She landed troops at Bergen during the invasion of Norway and was damaged by Norwegian coastal guns. The next morning Fleet Air Arm Skuas flying from Orkney hit her with at least three bombs.",
+    "fun_fact": "She was the first major warship ever sunk by dive bombers.",
+    "image": "konigsberg.jpg",
+    "image_credit": "Image: Provided by U.S. Naval Historical Center · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "atlantis",
+    "name": "Atlantis",
+    "nation": "Germany",
+    "class": "Auxiliary cruiser (disguised merchant raider)",
+    "launched": 1937,
+    "fate": "Sunk by the cruiser HMS Devonshire in the South Atlantic on 22 November 1941",
+    "description": "A freighter with hidden guns, torpedo tubes and a seaplane, able to change her disguise at sea. Under Bernhard Rogge she sank or captured 22 ships in a cruise of more than 600 days.",
+    "fun_fact": "Secret British papers she captured aboard the steamer Automedon in 1940 were passed to Japan and revealed how weak Singapore's defences were.",
+    "image": "atlantis.jpg",
+    "image_credit": "Image: S.W.Roskill · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "kormoran",
+    "name": "Kormoran",
+    "nation": "Germany",
+    "class": "Auxiliary cruiser (disguised merchant raider)",
+    "launched": 1938,
+    "fate": "Scuttled after battle with HMAS Sydney off Western Australia, 19 November 1941",
+    "description": "The largest German merchant raider. Posing as a Dutch freighter, she lured the Australian cruiser Sydney to close range and opened fire; both ships were fatally damaged.",
+    "fun_fact": "It is the only known case of a converted merchant ship sinking a modern cruiser. Both wrecks were found in 2008.",
+    "image": "kormoran.jpg",
+    "image_credit": "Image: Bundesarchiv, Bild 146-1985-074-27 · CC BY-SA 3.0 DE",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "hms-sheffield",
+    "name": "HMS Sheffield",
+    "nation": "United Kingdom",
+    "class": "Town-class light cruiser",
+    "launched": 1936,
+    "fate": "Sold for scrap in 1967",
+    "description": "Fought in the Bismarck chase, the Malta convoys, the Battle of the Barents Sea and the sinking of Scharnhorst. She was one of the first British warships fitted with radar.",
+    "fun_fact": "The \"Shiny Sheff\" had stainless steel fittings instead of brass. During the Bismarck hunt she was attacked in error by Ark Royal's Swordfish.",
+    "image": "hms-sheffield.jpg",
+    "image_credit": "Image: Royal Navy official photographer · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "hms-exeter",
+    "name": "HMS Exeter",
+    "nation": "United Kingdom",
+    "class": "York-class heavy cruiser",
+    "launched": 1929,
+    "fate": "Sunk by Japanese cruisers and destroyers in the Java Sea on 1 March 1942",
+    "description": "At the River Plate in December 1939 she took the brunt of Admiral Graf Spee's 11-inch shells, losing all her main guns but staying in the fight. Repaired, she was sent east against Japan.",
+    "fun_fact": "Her wreck was located in 2007. By 2016 illegal salvagers had removed almost all of it.",
+    "image": "hms-exeter.jpg",
+    "image_credit": "Image: Tomlin, H W · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "hms-ajax",
+    "name": "HMS Ajax",
+    "nation": "United Kingdom",
+    "class": "Leander-class light cruiser",
+    "launched": 1934,
+    "fate": "Sold for scrap in 1949",
+    "description": "Commodore Harwood's flagship at the Battle of the River Plate. She later fought at Cape Matapan and off Crete, and bombarded Gold Beach on D-Day.",
+    "fun_fact": "The town of Ajax in Ontario, Canada, is named after her, and many of its streets carry the names of her crew.",
+    "image": "hms-ajax.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "hmnzs-achilles",
+    "name": "HMNZS Achilles",
+    "nation": "New Zealand",
+    "class": "Leander-class light cruiser",
+    "launched": 1932,
+    "fate": "Sold to India as INS Delhi; scrapped in 1978",
+    "description": "Manned largely by New Zealanders, she fought Admiral Graf Spee at the River Plate alongside Ajax and Exeter, and later served in the Pacific.",
+    "fun_fact": "She played herself in the 1956 film \"The Battle of the River Plate\".",
+    "image": "hmnzs-achilles.jpg",
+    "image_credit": "Image: Allan C. Green · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "hms-dorsetshire",
+    "name": "HMS Dorsetshire",
+    "nation": "United Kingdom",
+    "class": "County-class heavy cruiser",
+    "launched": 1929,
+    "fate": "Sunk by Japanese dive bombers south of Ceylon on 5 April 1942",
+    "description": "She left a convoy on her captain's own initiative to join the hunt for Bismarck and fired the last torpedoes into the wrecked battleship. The following year she was sunk in minutes.",
+    "fun_fact": "She picked up 85 of Bismarck's survivors before a U-boat alarm forced her to leave the rest.",
+    "image": "hms-dorsetshire.jpg",
+    "image_credit": "Image: Photographer not identified · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "hms-norfolk",
+    "name": "HMS Norfolk",
+    "nation": "United Kingdom",
+    "class": "County-class heavy cruiser",
+    "launched": 1928,
+    "fate": "Sold for scrap in 1950",
+    "description": "With HMS Suffolk she tracked Bismarck through the Denmark Strait and was present at her end. At the North Cape in 1943 her 8-inch shells struck Scharnhorst first.",
+    "fun_fact": "That opening hit knocked out Scharnhorst's forward radar, leaving the German ship half blind in the Arctic night.",
+    "image": "hms-norfolk.jpg",
+    "image_credit": "Image: Министерство обороны России · CC BY 4.0",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "hms-suffolk",
+    "name": "HMS Suffolk",
+    "nation": "United Kingdom",
+    "class": "County-class heavy cruiser",
+    "launched": 1926,
+    "fate": "Sold for scrap in 1948",
+    "description": "Her new radar let her shadow Bismarck and Prinz Eugen through mist and ice in the Denmark Strait in May 1941, keeping the Home Fleet informed of every move.",
+    "fun_fact": "A year earlier she had limped home from Norway after hours of bombing, with her quarterdeck awash.",
+    "image": "hms-suffolk.jpg",
+    "image_credit": "Image: Royal Navy official photographer · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "hms-edinburgh",
+    "name": "HMS Edinburgh",
+    "nation": "United Kingdom",
+    "class": "Town-class light cruiser",
+    "launched": 1938,
+    "fate": "Scuttled in the Barents Sea on 2 May 1942 after torpedo damage",
+    "description": "Sister ship of HMS Belfast. Escorting an Arctic convoy home from Murmansk, she was torpedoed by a U-boat and then by a German destroyer.",
+    "fun_fact": "She was carrying about four and a half tons of Soviet gold. Most of it was recovered by divers in 1981.",
+    "image": "hms-edinburgh.jpg",
+    "image_credit": "Image: Coote, R G G · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "hms-penelope",
+    "name": "HMS Penelope",
+    "nation": "United Kingdom",
+    "class": "Arethusa-class light cruiser",
+    "launched": 1935,
+    "fate": "Torpedoed by U-410 off Anzio on 18 February 1944",
+    "description": "From Malta in late 1941 she and Force K destroyed Italian convoys bound for North Africa. Bombed again and again in dock, she survived to fight at Sicily, Salerno and Anzio.",
+    "fun_fact": "Riddled with splinter holes plugged with wooden pegs, she was nicknamed \"HMS Pepperpot\" and then \"HMS Porcupine\".",
+    "image": "hms-penelope.jpg",
+    "image_credit": "Image: Royal Navy official photographer · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "hmas-sydney",
+    "name": "HMAS Sydney",
+    "nation": "Australia",
+    "class": "Leander-class light cruiser",
+    "launched": 1934,
+    "fate": "Lost with all hands off Western Australia on 19 November 1941",
+    "description": "In July 1940 she sank the Italian cruiser Bartolomeo Colleoni off Crete. Sixteen months later she was sunk by the disguised German raider Kormoran.",
+    "fun_fact": "None of her 645 crew survived, Australia's worst naval loss. The wreck was not found until 2008.",
+    "image": "hmas-sydney.jpg",
+    "image_credit": "Image: Green, Allan C., 1878-1954, photographer · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "hmas-perth",
+    "name": "HMAS Perth",
+    "nation": "Australia",
+    "class": "Leander-class light cruiser",
+    "launched": 1934,
+    "fate": "Sunk in the Sunda Strait on 1 March 1942",
+    "description": "A veteran of Matapan and Crete. After surviving the Battle of the Java Sea she and USS Houston ran into a Japanese invasion fleet at night and fought until their ammunition was gone.",
+    "fun_fact": "She was built for the Royal Navy as HMS Amphion and transferred to Australia in 1939.",
+    "image": "hmas-perth.jpg",
+    "image_credit": "Image: Fotoafdrukken Koninklijke Marine · CC BY-SA 4.0",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "hmas-canberra",
+    "name": "HMAS Canberra",
+    "nation": "Australia",
+    "class": "County-class heavy cruiser",
+    "launched": 1927,
+    "fate": "Scuttled after the Battle of Savo Island on 9 August 1942",
+    "description": "Guarding the transports off Guadalcanal, she was overwhelmed in the first minutes of a Japanese night attack, hit by more than twenty shells before she could fire.",
+    "fun_fact": "In her honour the US Navy named a cruiser USS Canberra, the only American warship named after a foreign capital city.",
+    "image": "hmas-canberra.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "hms-curacoa",
+    "name": "HMS Curacoa",
+    "nation": "United Kingdom",
+    "class": "C-class anti-aircraft cruiser",
+    "launched": 1917,
+    "fate": "Cut in two by the liner Queen Mary off Ireland on 2 October 1942",
+    "description": "An old cruiser rearmed for anti-aircraft escort. While she was shepherding the troop-laden Queen Mary, the zigzag courses of the two ships crossed and the liner sliced through her at 28 knots.",
+    "fun_fact": "Queen Mary, carrying about 10,000 American soldiers, was under orders not to stop. More than 330 of the cruiser's crew died.",
+    "image": "hms-curacoa.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "hms-jervis-bay",
+    "name": "HMS Jervis Bay",
+    "nation": "United Kingdom",
+    "class": "Armed merchant cruiser (converted liner)",
+    "launched": 1922,
+    "fate": "Sunk by Admiral Scheer in the North Atlantic on 5 November 1940",
+    "description": "A liner armed with seven old 6-inch guns and the sole escort of convoy HX 84. When Admiral Scheer appeared she steered straight at the raider so that the convoy could scatter.",
+    "fun_fact": "Her hopeless fight bought enough time for most of the convoy to escape. Captain Edward Fegen received a posthumous Victoria Cross.",
+    "image": "hms-jervis-bay.jpg",
+    "image_credit": "Image: Photo by JF Aylard, survivor · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-indianapolis",
+    "name": "USS Indianapolis (CA-35)",
+    "nation": "United States",
+    "class": "Portland-class heavy cruiser",
+    "launched": 1931,
+    "fate": "Torpedoed by the submarine I-58 in the Philippine Sea on 30 July 1945",
+    "description": "Admiral Spruance's flagship for much of the Pacific War. In July 1945 she delivered parts of the Hiroshima atomic bomb to Tinian; four days later she was sunk in twelve minutes.",
+    "fun_fact": "Her loss went unnoticed for days. Of nearly 1,200 men aboard, only 316 survived the sharks, thirst and exposure.",
+    "image": "uss-indianapolis.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-houston",
+    "name": "USS Houston (CA-30)",
+    "nation": "United States",
+    "class": "Northampton-class heavy cruiser",
+    "launched": 1929,
+    "fate": "Sunk in the Sunda Strait on 1 March 1942",
+    "description": "Flagship of the US Asiatic Fleet. Reported sunk so often that she became the \"Galloping Ghost of the Java Coast\", she was finally lost with HMAS Perth fighting a Japanese invasion fleet.",
+    "fun_fact": "On Memorial Day 1942 a thousand men of Houston, Texas, enlisted together to replace her crew, and the city paid for a new cruiser.",
+    "image": "uss-houston.jpg",
+    "image_credit": "Image: U.S. Navy · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-san-francisco",
+    "name": "USS San Francisco (CA-38)",
+    "nation": "United States",
+    "class": "New Orleans-class heavy cruiser",
+    "launched": 1933,
+    "fate": "Sold for scrap in 1959",
+    "description": "One of the most decorated American ships of the war. In the chaotic night battle off Guadalcanal on 13 November 1942 she was hit some 45 times and lost her admiral and captain, but survived.",
+    "fun_fact": "Her shell-torn bridge wings are preserved as a memorial at Lands End in San Francisco.",
+    "image": "uss-san-francisco.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-atlanta",
+    "name": "USS Atlanta (CL-51)",
+    "nation": "United States",
+    "class": "Atlanta-class light cruiser",
+    "launched": 1941,
+    "fate": "Scuttled off Guadalcanal on 13 November 1942",
+    "description": "Built as a fast anti-aircraft cruiser with sixteen 5-inch guns. In the night battle off Guadalcanal she was torpedoed and then hit by friendly fire from USS San Francisco.",
+    "fun_fact": "She was christened by Margaret Mitchell, the author of \"Gone with the Wind\".",
+    "image": "uss-atlanta.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-juneau",
+    "name": "USS Juneau (CL-52)",
+    "nation": "United States",
+    "class": "Atlanta-class light cruiser",
+    "launched": 1941,
+    "fate": "Torpedoed by the submarine I-26 off Guadalcanal on 13 November 1942",
+    "description": "Damaged in the night battle off Guadalcanal, she was limping away when a submarine torpedo set off her magazines. She vanished in seconds; only ten of nearly 700 men survived.",
+    "fun_fact": "Among the dead were the five Sullivan brothers of Waterloo, Iowa, who had insisted on serving together.",
+    "image": "uss-juneau.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-helena",
+    "name": "USS Helena (CL-50)",
+    "nation": "United States",
+    "class": "St. Louis-class light cruiser",
+    "launched": 1938,
+    "fate": "Torpedoed at the Battle of Kula Gulf on 6 July 1943",
+    "description": "Torpedoed at Pearl Harbor and repaired, she became known for the speed of her fifteen 6-inch guns in the night battles around Guadalcanal and the central Solomons.",
+    "fun_fact": "She was the first ship to receive the US Navy Unit Commendation.",
+    "image": "uss-helena.jpg",
+    "image_credit": "Image: Unidentified USN photographer · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-phoenix",
+    "name": "USS Phoenix (CL-46)",
+    "nation": "United States",
+    "class": "Brooklyn-class light cruiser",
+    "launched": 1938,
+    "fate": "Sold to Argentina; sunk as ARA General Belgrano on 2 May 1982",
+    "description": "She came through the attack on Pearl Harbor untouched and fought across the south-west Pacific, from New Guinea to the Battle of Surigao Strait.",
+    "fun_fact": "Forty years later, as General Belgrano, she was torpedoed by the British nuclear submarine HMS Conqueror in the Falklands War.",
+    "image": "uss-phoenix.jpg",
+    "image_credit": "Image: U.S. Navy · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-augusta",
+    "name": "USS Augusta (CA-31)",
+    "nation": "United States",
+    "class": "Northampton-class heavy cruiser",
+    "launched": 1930,
+    "fate": "Sold for scrap in 1959",
+    "description": "A flagship for much of her life: Roosevelt met Churchill aboard her for the Atlantic Charter, Patton sailed in her to North Africa, and Bradley commanded from her off Normandy.",
+    "fun_fact": "In 1945 she carried President Truman to and from the Potsdam Conference.",
+    "image": "uss-augusta.jpg",
+    "image_credit": "Image: U.S. Navy · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-salt-lake-city",
+    "name": "USS Salt Lake City (CA-25)",
+    "nation": "United States",
+    "class": "Pensacola-class heavy cruiser",
+    "launched": 1929,
+    "fate": "Sunk as a target in 1948 after the Bikini atomic tests",
+    "description": "She escorted the Doolittle raid and fought at Cape Esperance. At the Komandorski Islands in March 1943 she fought a long-range daylight gun duel and was left briefly dead in the water.",
+    "fun_fact": "Her crew called her the \"Swayback Maru\" for the sagging line of her hull.",
+    "image": "uss-salt-lake-city.jpg",
+    "image_credit": "Image: US Navy · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-alaska",
+    "name": "USS Alaska (CB-1)",
+    "nation": "United States",
+    "class": "Alaska-class large cruiser",
+    "launched": 1943,
+    "fate": "Sold for scrap in 1960",
+    "description": "Neither heavy cruiser nor battleship: a 30,000-ton \"large cruiser\" with nine 12-inch guns, built to catch enemy cruiser raiders. She arrived in time to screen carriers off Iwo Jima and Okinawa.",
+    "fun_fact": "Her class was named after American territories, a step between cruisers (cities) and battleships (states).",
+    "image": "uss-alaska.jpg",
+    "image_credit": "Image: U.S. Navy · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-nashville",
+    "name": "USS Nashville (CL-43)",
+    "nation": "United States",
+    "class": "Brooklyn-class light cruiser",
+    "launched": 1937,
+    "fate": "Sold to Chile as Capitán Prat; scrapped in the 1980s",
+    "description": "She escorted USS Hornet on the Doolittle raid, sinking a Japanese picket boat that had spotted the force, and later served in the south-west Pacific.",
+    "fun_fact": "She was General MacArthur's flagship for his return to the Philippines in October 1944.",
+    "image": "uss-nashville.jpg",
+    "image_credit": "Image: U.S. Navy · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-cleveland",
+    "name": "USS Cleveland (CL-55)",
+    "nation": "United States",
+    "class": "Cleveland-class light cruiser",
+    "launched": 1941,
+    "fate": "Sold for scrap in 1960",
+    "description": "Lead ship of the largest class of cruisers ever built: twenty-seven were completed as cruisers. She fought from North Africa to the Solomons, the Marianas and Borneo.",
+    "fun_fact": "Nine more Cleveland-class hulls were finished as Independence-class light aircraft carriers.",
+    "image": "uss-cleveland.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-boise",
+    "name": "USS Boise (CL-47)",
+    "nation": "United States",
+    "class": "Brooklyn-class light cruiser",
+    "launched": 1936,
+    "fate": "Sold to Argentina as Nueve de Julio; sold for scrap in 1981",
+    "description": "At Cape Esperance off Guadalcanal in October 1942 a shell exploded in her forward magazine, but flooding saved her. She later supported landings in Sicily, Italy and the Philippines.",
+    "fun_fact": "She carried General MacArthur during the invasion of Luzon in January 1945.",
+    "image": "uss-boise.jpg",
+    "image_credit": "Image: U.S. Navy Bureau of Ships photo 19-N-19153 · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "takao",
+    "name": "Takao",
+    "nation": "Japan",
+    "class": "Takao-class heavy cruiser",
+    "launched": 1930,
+    "fate": "Scuttled by the Royal Navy in the Strait of Malacca in 1946",
+    "description": "Lead ship of Japan's most powerful heavy cruisers. Torpedoed by USS Darter on the way to Leyte Gulf, she spent the rest of the war immobile at Singapore as a floating battery.",
+    "fun_fact": "In July 1945 the British midget submarine XE3 crept under her and laid charges. Two of its crew won the Victoria Cross.",
+    "image": "takao.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "atago",
+    "name": "Atago",
+    "nation": "Japan",
+    "class": "Takao-class heavy cruiser",
+    "launched": 1930,
+    "fate": "Torpedoed by the submarine USS Darter off Palawan on 23 October 1944",
+    "description": "Flagship of Vice Admiral Kurita's Centre Force as it set out for Leyte Gulf. Four torpedoes sank her in about twenty minutes at the very start of the battle.",
+    "fun_fact": "Kurita had to swim for his life and was picked up by a destroyer before moving his flag to the battleship Yamato.",
+    "image": "atago.jpg",
+    "image_credit": "Image: Japanese Imperial Navy · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "chokai",
+    "name": "Chōkai",
+    "nation": "Japan",
+    "class": "Takao-class heavy cruiser",
+    "launched": 1931,
+    "fate": "Scuttled after the Battle off Samar on 25 October 1944",
+    "description": "Flagship of Vice Admiral Mikawa at Savo Island in August 1942, where his cruisers sank four Allied heavy cruisers in about half an hour, the US Navy's worst defeat at sea.",
+    "fun_fact": "Her wreck was found in 2019 at a depth of more than 5,000 metres.",
+    "image": "chokai.jpg",
+    "image_credit": "Image: Presumed official IJN photographer · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "mogami",
+    "name": "Mogami",
+    "nation": "Japan",
+    "class": "Mogami-class heavy cruiser",
+    "launched": 1934,
+    "fate": "Sunk after the Battle of Surigao Strait on 25 October 1944",
+    "description": "Completed as a \"light\" cruiser with fifteen 6.1-inch guns to satisfy the naval treaties, then rearmed with 8-inch guns. At Midway she lost her bow in a collision with her sister Mikuma.",
+    "fun_fact": "She was rebuilt with a flight deck aft for eleven seaplanes. At Surigao Strait she collided again, with the cruiser Nachi.",
+    "image": "mogami.jpg",
+    "image_credit": "Image: Imperial Japanese Navy · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "mikuma",
+    "name": "Mikuma",
+    "nation": "Japan",
+    "class": "Mogami-class heavy cruiser",
+    "launched": 1934,
+    "fate": "Sunk by US carrier aircraft on 6 June 1942 after the Battle of Midway",
+    "description": "She helped sink USS Houston and HMAS Perth in the Sunda Strait. Withdrawing from Midway, she collided with Mogami and was caught by dive bombers the next day.",
+    "fun_fact": "A photograph of her shattered, burning wreck taken from an American aircraft became one of the best-known images of Midway.",
+    "image": "mikuma.jpg",
+    "image_credit": "Image: Imperial Japanese Navy · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "haguro",
+    "name": "Haguro",
+    "nation": "Japan",
+    "class": "Myōkō-class heavy cruiser",
+    "launched": 1928,
+    "fate": "Sunk by British destroyers in the Strait of Malacca on 16 May 1945",
+    "description": "Her torpedoes helped win the Battle of the Java Sea in 1942, and she fought at Empress Augusta Bay, the Philippine Sea and Leyte Gulf.",
+    "fun_fact": "Her sinking in a night torpedo attack by five destroyers was the last major surface action of the war fought with guns and torpedoes.",
+    "image": "haguro.jpg",
+    "image_credit": "Image: Kenji Sato · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "ashigara",
+    "name": "Ashigara",
+    "nation": "Japan",
+    "class": "Myōkō-class heavy cruiser",
+    "launched": 1928,
+    "fate": "Torpedoed by the submarine HMS Trenchant in the Bangka Strait on 8 June 1945",
+    "description": "Flagship of the forces that invaded the Philippines and the Dutch East Indies. She was carrying about 1,600 troops when five torpedoes from a British submarine sank her.",
+    "fun_fact": "She represented Japan at the 1937 Coronation Review at Spithead, where British observers thought she looked like a hungry wolf.",
+    "image": "ashigara.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "yahagi",
+    "name": "Yahagi",
+    "nation": "Japan",
+    "class": "Agano-class light cruiser",
+    "launched": 1942,
+    "fate": "Sunk by US carrier aircraft on 7 April 1945 alongside Yamato",
+    "description": "A fast destroyer-squadron flagship. She led the eight destroyers that escorted the battleship Yamato on her one-way mission to Okinawa.",
+    "fun_fact": "She absorbed about seven torpedoes and a dozen bombs before sinking, shortly before Yamato herself blew up.",
+    "image": "yahagi.jpg",
+    "image_credit": "Image: Imperial Japanese Navy official photograph · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "kitakami",
+    "name": "Kitakami",
+    "nation": "Japan",
+    "class": "Kuma-class light cruiser",
+    "launched": 1920,
+    "fate": "Survived the war; scrapped in 1946–47",
+    "description": "In 1941 she was rebuilt as a \"torpedo cruiser\" with forty 24-inch torpedo tubes, twenty on each side, for a night attack on the American battle line that never came.",
+    "fun_fact": "She ended the war as a carrier of Kaiten manned suicide torpedoes, without ever having fired her tubes in battle.",
+    "image": "kitakami.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "oyodo",
+    "name": "Ōyodo",
+    "nation": "Japan",
+    "class": "Light cruiser",
+    "launched": 1942,
+    "fate": "Capsized at Kure under US carrier air attack on 28 July 1945",
+    "description": "Designed as a flagship for submarine groups, with a large hangar and catapult for long-range scout seaplanes. The planes were never ready, so the hangar became staff offices.",
+    "fun_fact": "In 1944 she served as flagship of the entire Combined Fleet, the last ship to do so at sea.",
+    "image": "oyodo.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "yubari",
+    "name": "Yūbari",
+    "nation": "Japan",
+    "class": "Experimental light cruiser",
+    "launched": 1923,
+    "fate": "Torpedoed by the submarine USS Bluegill off Palau; sank on 28 April 1944",
+    "description": "A test of designer Yuzuru Hiraga's ideas: the firepower of a 5,500-ton cruiser on a hull of barely 3,000 tons. Her layout shaped later Japanese heavy cruisers.",
+    "fun_fact": "She was flagship of the force that failed in the first attempt to take Wake Island in December 1941.",
+    "image": "yubari.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "zara",
+    "name": "Zara",
+    "nation": "Italy",
+    "class": "Zara-class heavy cruiser",
+    "launched": 1930,
+    "fate": "Sunk at the Battle of Cape Matapan on 29 March 1941",
+    "description": "Among the best protected of all treaty heavy cruisers. Sent back at night to help the crippled Pola, she and Fiume were surprised by British battleships firing 15-inch guns from under 4,000 metres.",
+    "fun_fact": "The Italian ships had no radar and their guns were trained fore and aft when the British searchlights came on.",
+    "image": "zara.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "giuseppe-garibaldi",
+    "name": "Giuseppe Garibaldi",
+    "nation": "Italy",
+    "class": "Duca degli Abruzzi-class light cruiser",
+    "launched": 1936,
+    "fate": "Decommissioned in 1971 and scrapped",
+    "description": "One of Italy's last and best-balanced light cruisers. She fought at Calabria and Matapan, survived a submarine torpedo in 1941 and served with the Allies after 1943.",
+    "fun_fact": "Rebuilt in 1957–61 as a guided-missile cruiser, she was given four launch tubes for Polaris ballistic missiles, which she never carried.",
+    "image": "giuseppe-garibaldi.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "algerie",
+    "name": "Algérie",
+    "nation": "France",
+    "class": "Heavy cruiser",
+    "launched": 1932,
+    "fate": "Scuttled at Toulon on 27 November 1942",
+    "description": "France's last and finest treaty heavy cruiser, often judged the best of her type in any navy. She hunted German raiders in 1939 and shelled the Italian coast in June 1940.",
+    "fun_fact": "When the fleet scuttled itself to keep out of German hands she was set on fire and burned for about three weeks.",
+    "image": "algerie.jpg",
+    "image_credit": "Image: Marine Nationale · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "emile-bertin",
+    "name": "Émile Bertin",
+    "nation": "France",
+    "class": "Fast minelaying light cruiser",
+    "launched": 1933,
+    "fate": "Scrapped in 1961",
+    "description": "One of the fastest cruisers ever built, exceeding 39 knots on trials. After Norway in 1940 she was sent across the Atlantic and spent three years idle at Martinique before rejoining the Allies.",
+    "fun_fact": "In June 1940 she carried some 286 tonnes of the Bank of France's gold reserves to safety in Martinique.",
+    "image": "emile-bertin.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "kirov",
+    "name": "Kirov",
+    "nation": "Soviet Union",
+    "class": "Kirov-class cruiser",
+    "launched": 1936,
+    "fate": "Scrapped in 1974",
+    "description": "The first large warship built in the Soviet Union, designed with Italian technical help. Trapped in the Baltic, she spent the war as a floating battery defending besieged Leningrad.",
+    "fun_fact": "Two of her triple 180 mm gun turrets are preserved as a monument in Saint Petersburg.",
+    "image": "kirov.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "krasny-kavkaz",
+    "name": "Krasny Kavkaz",
+    "nation": "Soviet Union",
+    "class": "Admiral Nakhimov-class cruiser (modified)",
+    "launched": 1916,
+    "fate": "Sunk as a missile target in 1952",
+    "description": "Launched for the Tsar's navy as Admiral Lazarev and not finished until 1932, to a much altered design. In the Black Sea she ran troops and supplies into besieged Odessa and Sevastopol.",
+    "fun_fact": "In December 1941 she landed troops directly on the quay at Feodosia under fire. She was awarded the title of Guards ship.",
+    "image": "krasny-kavkaz.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "de-ruyter",
+    "name": "HNLMS De Ruyter",
+    "nation": "Netherlands",
+    "class": "Light cruiser",
+    "launched": 1936,
+    "fate": "Torpedoed at the Battle of the Java Sea on the night of 27 February 1942",
+    "description": "Flagship of Rear Admiral Karel Doorman, who led the combined American, British, Dutch and Australian striking force against the Japanese invasion of Java and went down with his ship.",
+    "fun_fact": "Her wreck, found in 2002, had been almost entirely removed by illegal salvagers when divers returned in 2016.",
+    "image": "de-ruyter.jpg",
+    "image_credit": "Image: Fotoafdrukken Koninklijke Marine · CC BY-SA 4.0",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "tromp",
+    "name": "HNLMS Tromp",
+    "nation": "Netherlands",
+    "class": "Tromp-class light cruiser",
+    "launched": 1937,
+    "fate": "Scrapped in 1969",
+    "description": "A small, fast flotilla leader. Badly damaged in the Badung Strait in February 1942, she escaped to Australia and fought on with the Allied fleets until the Japanese surrender.",
+    "fun_fact": "Japanese reports claimed her sunk so many times that she became known as \"the lucky ship\".",
+    "image": "tromp.jpg",
+    "image_credit": "Image: Fotoafdrukken Koninklijke Marine · CC BY-SA 4.0",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "elli",
+    "name": "Elli",
+    "nation": "Greece",
+    "class": "Light cruiser",
+    "launched": 1912,
+    "fate": "Torpedoed by an Italian submarine at Tinos on 15 August 1940",
+    "description": "Built in the United States for China and bought by Greece in 1914. She was at anchor at the island of Tinos for a religious festival when she was sunk, two months before Italy invaded Greece.",
+    "fun_fact": "Italy denied responsibility at the time, though fragments of the torpedoes showed where they came from.",
+    "image": "elli.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-johnston",
+    "name": "USS Johnston (DD-557)",
+    "nation": "United States",
+    "class": "Fletcher-class destroyer",
+    "launched": 1943,
+    "fate": "Sunk in the Battle off Samar on 25 October 1944",
+    "description": "When Japanese battleships surprised the escort carriers of Taffy 3, Commander Ernest Evans turned his destroyer towards them without waiting for orders, torpedoed a heavy cruiser and fought for over two hours.",
+    "fun_fact": "Her wreck lies about 6,460 metres down. Evans, who did not survive, received the Medal of Honor.",
+    "image": "uss-johnston.jpg",
+    "image_credit": "Image: Adam Cuerden · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-samuel-b-roberts",
+    "name": "USS Samuel B. Roberts",
+    "nation": "United States",
+    "class": "John C. Butler-class destroyer escort",
+    "launched": 1944,
+    "fate": "Sunk in the Battle off Samar on 25 October 1944",
+    "description": "A small convoy escort that charged Japanese heavy cruisers off Samar, torpedoing one and firing nearly all her 5-inch shells. She is remembered as \"the destroyer escort that fought like a battleship\".",
+    "fun_fact": "Found in 2022 at 6,895 metres, she is the deepest shipwreck ever located.",
+    "image": "uss-samuel-b-roberts.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-laffey",
+    "name": "USS Laffey (DD-724)",
+    "nation": "United States",
+    "class": "Allen M. Sumner-class destroyer",
+    "launched": 1943,
+    "fate": "Museum ship at Patriots Point, Mount Pleasant, South Carolina",
+    "description": "She bombarded the Normandy coast on D-Day and then went to the Pacific. On radar picket duty off Okinawa on 16 April 1945 she was attacked by some fifty aircraft in eighty minutes.",
+    "fun_fact": "Hit by several kamikazes and bombs, she stayed afloat and became \"the ship that would not die\".",
+    "image": "uss-laffey.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-the-sullivans",
+    "name": "USS The Sullivans (DD-537)",
+    "nation": "United States",
+    "class": "Fletcher-class destroyer",
+    "launched": 1943,
+    "fate": "Museum ship at Buffalo, New York",
+    "description": "Named for the five Sullivan brothers lost together in the cruiser USS Juneau in 1942. She screened the fast carriers from the Marshall Islands to Okinawa.",
+    "fun_fact": "She was the first US Navy ship named after more than one person, and was launched by the brothers' mother.",
+    "image": "uss-the-sullivans.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-kidd",
+    "name": "USS Kidd (DD-661)",
+    "nation": "United States",
+    "class": "Fletcher-class destroyer",
+    "launched": 1943,
+    "fate": "Museum ship at Baton Rouge, Louisiana",
+    "description": "Named for Rear Admiral Isaac Kidd, killed aboard USS Arizona at Pearl Harbor. She fought through the central Pacific and was hit by a kamikaze off Okinawa in April 1945.",
+    "fun_fact": "Her crew adopted the pirate Captain Kidd as mascot and, with the blessing of the admiral's widow, flew the Jolly Roger.",
+    "image": "uss-kidd.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-fletcher",
+    "name": "USS Fletcher (DD-445)",
+    "nation": "United States",
+    "class": "Fletcher-class destroyer",
+    "launched": 1942,
+    "fate": "Sold for scrap in 1972",
+    "description": "Lead ship of the most successful American destroyer design of the war. She fought in the night battles off Guadalcanal within months of commissioning and earned fifteen battle stars.",
+    "fun_fact": "175 Fletcher-class destroyers were built, more than any other class of destroyer in the war.",
+    "image": "uss-fletcher.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-obannon",
+    "name": "USS O'Bannon (DD-450)",
+    "nation": "United States",
+    "class": "Fletcher-class destroyer",
+    "launched": 1942,
+    "fate": "Sold for scrap in 1970",
+    "description": "She fought in almost every major action in the Solomons, from the night battle off Guadalcanal to Vella Lavella, without losing a man to enemy action.",
+    "fun_fact": "With seventeen battle stars she was the most decorated American destroyer of the war. Legend says her crew once pelted a surfaced submarine with potatoes.",
+    "image": "uss-obannon.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-ward",
+    "name": "USS Ward (DD-139)",
+    "nation": "United States",
+    "class": "Wickes-class destroyer",
+    "launched": 1918,
+    "fate": "Hit by a kamikaze in Ormoc Bay on 7 December 1944 and scuttled",
+    "description": "On patrol off Pearl Harbor on the morning of 7 December 1941, she sank a Japanese midget submarine more than an hour before the air raid: the first American shots of the Pacific War.",
+    "fun_fact": "She was lost three years later to the day. In 1918 she had been launched just seventeen and a half days after her keel was laid.",
+    "image": "uss-ward.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-reuben-james",
+    "name": "USS Reuben James (DD-245)",
+    "nation": "United States",
+    "class": "Clemson-class destroyer",
+    "launched": 1919,
+    "fate": "Torpedoed by U-552 west of Iceland on 31 October 1941",
+    "description": "While escorting a British convoy before the United States had entered the war, she was hit by a torpedo that set off her forward magazine. A hundred of her crew died.",
+    "fun_fact": "She was the first US Navy ship sunk by enemy action in the war. Woody Guthrie wrote a song about her within weeks.",
+    "image": "uss-reuben-james.jpg",
+    "image_credit": "Image: Ted Stone, U.S. Navy · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-england",
+    "name": "USS England (DE-635)",
+    "nation": "United States",
+    "class": "Buckley-class destroyer escort",
+    "launched": 1943,
+    "fate": "Damaged by a kamikaze in 1945; scrapped in 1946",
+    "description": "Guided by decoded Japanese signals, she sank six Japanese submarines in twelve days in May 1944, a record never equalled by any other ship.",
+    "fun_fact": "Admiral Ernest King promised: \"There'll always be an England in the United States Navy.\"",
+    "image": "uss-england.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-buckley",
+    "name": "USS Buckley (DE-51)",
+    "nation": "United States",
+    "class": "Buckley-class destroyer escort",
+    "launched": 1943,
+    "fate": "Sold for scrap in 1969",
+    "description": "On 6 May 1944 she rammed the surfaced U-66 in the Atlantic. With the two vessels locked together, German sailors climbed onto her forecastle and were fought off hand to hand.",
+    "fun_fact": "Her crew used whatever came to hand, including fists, empty shell cases and coffee mugs.",
+    "image": "uss-buckley.jpg",
+    "image_credit": "Image: Photographed from a blimp of squadron ZP-11 · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-borie",
+    "name": "USS Borie (DD-215)",
+    "nation": "United States",
+    "class": "Clemson-class destroyer",
+    "launched": 1919,
+    "fate": "Scuttled on 2 November 1943 after ramming U-405",
+    "description": "An old \"four-stacker\" in an Atlantic hunter-killer group. In a night gale she rode up over the deck of U-405, too close for her main guns to bear, and the two crews fought at point-blank range.",
+    "fun_fact": "Her sailors used rifles, pistols, a flare gun and a thrown sheath knife. The collision damage sank her the next day.",
+    "image": "uss-borie.jpg",
+    "image_credit": "Image: Destroyer History Foundation · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-shaw",
+    "name": "USS Shaw (DD-373)",
+    "nation": "United States",
+    "class": "Mahan-class destroyer",
+    "launched": 1935,
+    "fate": "Sold for scrap in 1946",
+    "description": "She was in a floating dry dock at Pearl Harbor when bombs set off her forward magazine. The photograph of the explosion is one of the best-known images of the attack.",
+    "fun_fact": "Fitted with a temporary bow, she steamed to California for repairs and was back in action within months.",
+    "image": "uss-shaw.jpg",
+    "image_credit": "Image: U.S. Navy · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-william-d-porter",
+    "name": "USS William D. Porter",
+    "nation": "United States",
+    "class": "Fletcher-class destroyer",
+    "launched": 1942,
+    "fate": "Sunk by a kamikaze off Okinawa on 10 June 1945",
+    "description": "In November 1943, during a drill, she accidentally fired a live torpedo towards the battleship USS Iowa, which was carrying President Roosevelt to the Tehran Conference. Iowa turned in time.",
+    "fun_fact": "When she was finally sunk, by a kamikaze that exploded beneath her hull, every member of her crew survived.",
+    "image": "uss-william-d-porter.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-stewart",
+    "name": "USS Stewart (DD-224)",
+    "nation": "United States",
+    "class": "Clemson-class destroyer",
+    "launched": 1920,
+    "fate": "Recovered in 1945; sunk as a target in 1946",
+    "description": "Damaged and abandoned in a dry dock at Surabaya in 1942, she was raised by the Japanese and put into service as Patrol Boat No. 102.",
+    "fun_fact": "American pilots kept reporting a strangely familiar-looking warship deep inside Japanese waters. She was found at Kure after the surrender.",
+    "image": "uss-stewart.jpg",
+    "image_credit": "Image: U.S. Navy · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-edsall",
+    "name": "USS Edsall (DD-219)",
+    "nation": "United States",
+    "class": "Clemson-class destroyer",
+    "launched": 1920,
+    "fate": "Sunk south of Java on 1 March 1942",
+    "description": "Caught alone by two Japanese battleships and two heavy cruisers, the old destroyer dodged well over a thousand shells for more than an hour until carrier dive bombers were called in to stop her.",
+    "fun_fact": "Japanese officers likened her manoeuvres to a dancing mouse. Her wreck was found in 2023.",
+    "image": "uss-edsall.jpg",
+    "image_credit": "Image: Pier Studio, San Diego (donated 1969) · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-eldridge",
+    "name": "USS Eldridge (DE-173)",
+    "nation": "United States",
+    "class": "Cannon-class destroyer escort",
+    "launched": 1943,
+    "fate": "Transferred to Greece in 1951; scrapped in the 1990s",
+    "description": "An ordinary convoy escort that spent the war in the Atlantic and Mediterranean. Her fame comes from a story with no basis in fact.",
+    "fun_fact": "She is the ship of the \"Philadelphia Experiment\" legend, which claims the Navy made her invisible and teleported her in 1943.",
+    "image": "uss-eldridge.jpg",
+    "image_credit": "Image: U.S. Navy · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-mason",
+    "name": "USS Mason (DE-529)",
+    "nation": "United States",
+    "class": "Evarts-class destroyer escort",
+    "launched": 1943,
+    "fate": "Sold for scrap in 1947",
+    "description": "One of only two US Navy warships of the war with a predominantly African American crew. She escorted Atlantic convoys and was praised for her conduct in a severe storm in 1944.",
+    "fun_fact": "A commendation recommended for her crew in 1944 was not finally awarded until 1995.",
+    "image": "uss-mason.jpg",
+    "image_credit": "Image: US Navy Employee · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "pt-109",
+    "name": "PT-109",
+    "nation": "United States",
+    "class": "Elco 80-foot motor torpedo boat",
+    "launched": 1942,
+    "fate": "Rammed by the destroyer Amagiri in the Solomon Islands on 2 August 1943",
+    "description": "A plywood torpedo boat commanded by Lieutenant John F. Kennedy. Cut in two at night by a Japanese destroyer, her survivors swam to a small island; Kennedy towed an injured man by a strap held in his teeth.",
+    "fun_fact": "Kennedy scratched a rescue message on a coconut shell. He later kept it on his desk in the Oval Office.",
+    "image": "pt-109.jpg",
+    "image_credit": "Image: Photograph from the Bureau of Ships · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "hms-cossack",
+    "name": "HMS Cossack",
+    "nation": "United Kingdom",
+    "class": "Tribal-class destroyer",
+    "launched": 1937,
+    "fate": "Torpedoed by U-563 west of Gibraltar in October 1941",
+    "description": "In February 1940 she entered a Norwegian fjord and boarded the German tanker Altmark, freeing 299 British merchant seamen held prisoner. She later fought at Narvik and against Bismarck.",
+    "fun_fact": "The prisoners heard the boarding party shout: \"The Navy's here!\"",
+    "image": "hms-cossack.jpg",
+    "image_credit": "Image: Royal Navy official photographer · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "hms-glowworm",
+    "name": "HMS Glowworm",
+    "nation": "United Kingdom",
+    "class": "G-class destroyer",
+    "launched": 1935,
+    "fate": "Sunk by the cruiser Admiral Hipper off Norway on 8 April 1940",
+    "description": "Separated from her force while searching for a man overboard, she met the German heavy cruiser Admiral Hipper. Outgunned and on fire, she rammed the cruiser before sinking.",
+    "fun_fact": "Her captain, Gerard Roope, received the Victoria Cross partly on the testimony of Hipper's captain, sent through the Red Cross.",
+    "image": "hms-glowworm.jpg",
+    "image_credit": "Image: Royal Navy official photographer · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "hms-campbeltown",
+    "name": "HMS Campbeltown",
+    "nation": "United Kingdom",
+    "class": "Town-class destroyer (ex-USS Buchanan)",
+    "launched": 1919,
+    "fate": "Blown up in the dock gate at Saint-Nazaire on 28 March 1942",
+    "description": "An old American destroyer transferred to Britain in 1940. Disguised as a German ship and packed with over four tons of explosives, she rammed the gate of the only Atlantic dry dock able to take Tirpitz.",
+    "fun_fact": "The delayed charge went off hours later, with a German inspection party on board. The dock stayed out of use for the rest of the war.",
+    "image": "hms-campbeltown.jpg",
+    "image_credit": "Image: Ware, C J (Lt), Royal Navy official · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "hms-cavalier",
+    "name": "HMS Cavalier",
+    "nation": "United Kingdom",
+    "class": "C-class destroyer",
+    "launched": 1944,
+    "fate": "Museum ship at Chatham Historic Dockyard, Kent",
+    "description": "Completed late in 1944, she escorted Arctic convoys and took part in operations off Norway before going to the Far East. She served until 1972.",
+    "fun_fact": "She is the last surviving British destroyer of the Second World War and a memorial to the 142 that were lost.",
+    "image": "hms-cavalier.jpg",
+    "image_credit": "Image: WestRail642fan · CC0",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "hms-acasta",
+    "name": "HMS Acasta",
+    "nation": "United Kingdom",
+    "class": "A-class destroyer",
+    "launched": 1929,
+    "fate": "Sunk by Scharnhorst and Gneisenau off Norway on 8 June 1940",
+    "description": "One of two destroyers escorting the carrier HMS Glorious. After Glorious and Ardent had gone, she turned back through her own smoke and put a torpedo into Scharnhorst before being sunk.",
+    "fun_fact": "Only one man of her crew survived. The torpedo hit forced the German battleships to return to port.",
+    "image": "hms-acasta.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "hms-bulldog",
+    "name": "HMS Bulldog",
+    "nation": "United Kingdom",
+    "class": "B-class destroyer",
+    "launched": 1930,
+    "fate": "Sold for scrap at the end of 1945",
+    "description": "On 9 May 1941 her boarding party entered the abandoned U-110 and carried off an intact Enigma machine and its code books, a decisive gift to the codebreakers at Bletchley Park.",
+    "fun_fact": "Exactly four years later, on 9 May 1945, the German surrender of the Channel Islands was signed on board her.",
+    "image": "hms-bulldog.jpg",
+    "image_credit": "Image: Royal Navy official photographer · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "hms-petard",
+    "name": "HMS Petard",
+    "nation": "United Kingdom",
+    "class": "P-class destroyer",
+    "launched": 1941,
+    "fate": "Scrapped in 1967",
+    "description": "In October 1942 three of her crew swam to the sinking U-559 and passed out code documents that let Bletchley Park break back into the U-boat Enigma. Two of them went down with the submarine.",
+    "fun_fact": "She is the only warship to have sunk a submarine from each of the German, Italian and Japanese navies.",
+    "image": "hms-petard.jpg",
+    "image_credit": "Image: Royal Navy official photographer · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "hms-starling",
+    "name": "HMS Starling",
+    "nation": "United Kingdom",
+    "class": "Black Swan-class sloop",
+    "launched": 1942,
+    "fate": "Scrapped in 1965",
+    "description": "Flagship of Captain Frederic \"Johnnie\" Walker's 2nd Support Group, the most successful anti-submarine force of the war. In one patrol early in 1944 the group sank six U-boats.",
+    "fun_fact": "Walker's ships left harbour with \"A-Hunting We Will Go\" playing over the loudspeakers.",
+    "image": "hms-starling.jpg",
+    "image_credit": "Image: J. Hall, Ministry of Defence Foxhill · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "hms-hardy",
+    "name": "HMS Hardy",
+    "nation": "United Kingdom",
+    "class": "H-class flotilla leader",
+    "launched": 1936,
+    "fate": "Beached and lost at Narvik on 10 April 1940",
+    "description": "She led five destroyers up the fjord to Narvik in a snowstorm at dawn, sinking two larger German destroyers and several supply ships before more German ships cut off the retreat.",
+    "fun_fact": "Captain Bernard Warburton-Lee, mortally wounded on her bridge, received the first Victoria Cross gazetted in the war.",
+    "image": "hms-hardy.jpg",
+    "image_credit": "Image: Royal Navy official photographer · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "hmcs-haida",
+    "name": "HMCS Haida",
+    "nation": "Canada",
+    "class": "Tribal-class destroyer",
+    "launched": 1942,
+    "fate": "Museum ship at Hamilton, Ontario",
+    "description": "In night actions in the English Channel in 1944 she helped destroy several German destroyers and torpedo boats, and she later sank a U-boat. She went on to serve in the Korean War.",
+    "fun_fact": "She sank more enemy surface tonnage than any other Canadian warship and is the last Tribal-class destroyer in existence.",
+    "image": "hmcs-haida.jpg",
+    "image_credit": "Image: Balcer~commonswiki · CC BY 2.5",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "hmcs-sackville",
+    "name": "HMCS Sackville",
+    "nation": "Canada",
+    "class": "Flower-class corvette",
+    "launched": 1941,
+    "fate": "Museum ship at Halifax, Nova Scotia",
+    "description": "One of the small, cheap escorts based on a whale-catcher design that held the North Atlantic convoy routes together. She fought U-boats around convoy ON 115 in 1942.",
+    "fun_fact": "More than 260 Flower-class corvettes were built. She is the only one left.",
+    "image": "hmcs-sackville.jpg",
+    "image_credit": "Image: Bryson109 at English Wikipedia · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "yukikaze",
+    "name": "Yukikaze",
+    "nation": "Japan",
+    "class": "Kagerō-class destroyer",
+    "launched": 1939,
+    "fate": "Transferred to China in 1947 as Dan Yang; scrapped in 1970",
+    "description": "She fought from the Java Sea through Midway, Guadalcanal and Leyte Gulf to Yamato's last sortie and came through almost unscratched, the only one of nineteen ships of her class to survive.",
+    "fun_fact": "In Japan she was famous as the \"unsinkable\" lucky ship. Her rudder and an anchor were later returned from Taiwan.",
+    "image": "yukikaze.jpg",
+    "image_credit": "Image: Shizuo Fukui · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "shimakaze",
+    "name": "Shimakaze",
+    "nation": "Japan",
+    "class": "Experimental \"super-destroyer\"",
+    "launched": 1942,
+    "fate": "Sunk by US carrier aircraft in Ormoc Bay on 11 November 1944",
+    "description": "A one-off design with high-pressure boilers and fifteen torpedo tubes, the heaviest torpedo armament of any destroyer. She reached more than 40 knots on trials.",
+    "fun_fact": "Sixteen sisters were planned, but she was too complicated to build in wartime and remained unique.",
+    "image": "shimakaze.jpg",
+    "image_credit": "Image: Presumed official IJN photographer · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "fubuki",
+    "name": "Fubuki",
+    "nation": "Japan",
+    "class": "Fubuki-class destroyer",
+    "launched": 1927,
+    "fate": "Sunk at the Battle of Cape Esperance on 11 October 1942",
+    "description": "When she appeared she made every other destroyer in the world obsolete: six 5-inch guns in enclosed twin mounts and nine 24-inch torpedo tubes with reloads.",
+    "fun_fact": "Her design forced the other naval powers to build bigger destroyers in reply. Her name means \"blizzard\".",
+    "image": "fubuki.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "akizuki",
+    "name": "Akizuki",
+    "nation": "Japan",
+    "class": "Akizuki-class destroyer",
+    "launched": 1941,
+    "fate": "Sunk off Cape Engaño on 25 October 1944",
+    "description": "Designed to defend carriers against air attack, with eight fast-firing 100 mm guns that were probably the best anti-aircraft guns Japan produced.",
+    "fun_fact": "At first sight American pilots took the big new destroyers for light cruisers.",
+    "image": "akizuki.jpg",
+    "image_credit": "Image: Shizuo Fukui · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "amatsukaze",
+    "name": "Amatsukaze",
+    "nation": "Japan",
+    "class": "Kagerō-class destroyer",
+    "launched": 1939,
+    "fate": "Wrecked by US Army bombers off Amoy on 6 April 1945 and scuttled",
+    "description": "Under Commander Tameichi Hara she fought in the night battle off Guadalcanal. In 1944 a submarine torpedo blew off her bow; she was fitted with a makeshift one and kept in service.",
+    "fun_fact": "Hara's memoir, \"Japanese Destroyer Captain\", is one of the few first-hand Japanese accounts of the destroyer war.",
+    "image": "amatsukaze.jpg",
+    "image_credit": "Image: Shizuo Fukui · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "hibiki",
+    "name": "Hibiki",
+    "nation": "Japan",
+    "class": "Akatsuki-class destroyer",
+    "launched": 1932,
+    "fate": "Given to the Soviet Union in 1947; sunk as a target in the 1970s",
+    "description": "Damaged three times and three times repaired, she missed the battles that destroyed her sisters and was one of the few Japanese destroyers afloat in 1945.",
+    "fun_fact": "Her survival earned her the nickname \"the Phoenix\". In Soviet service she was renamed Verny.",
+    "image": "hibiki.jpg",
+    "image_credit": "Image: Shizuo Fukui · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "amagiri",
+    "name": "Amagiri",
+    "nation": "Japan",
+    "class": "Fubuki-class destroyer",
+    "launched": 1930,
+    "fate": "Mined in the Makassar Strait on 23 April 1944",
+    "description": "A veteran of the \"Tokyo Express\" supply runs in the Solomons. On the night of 2 August 1943 she ran down and cut in two the American torpedo boat PT-109.",
+    "fun_fact": "Her commander that night, Kohei Hanami, later exchanged friendly letters with John F. Kennedy.",
+    "image": "amagiri.jpg",
+    "image_credit": "Image: Shizuo Fukui · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "ikazuchi",
+    "name": "Ikazuchi",
+    "nation": "Japan",
+    "class": "Akatsuki-class destroyer",
+    "launched": 1931,
+    "fate": "Torpedoed by the submarine USS Harder in April 1944",
+    "description": "After the Second Battle of the Java Sea in March 1942, her captain, Shunsaku Kudō, stopped in submarine-infested waters to rescue more than 400 British survivors.",
+    "fun_fact": "The rescue became widely known only decades later, when one of the survivors travelled to Japan to give thanks.",
+    "image": "ikazuchi.jpg",
+    "image_credit": "Image: Shizuo Fukui · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "le-terrible",
+    "name": "Le Terrible",
+    "nation": "France",
+    "class": "Le Fantasque-class large destroyer",
+    "launched": 1933,
+    "fate": "Scrapped in 1963",
+    "description": "One of six French \"super-destroyers\" bigger and faster than any rival. With the Free French from 1943 she raided German shipping in the Adriatic.",
+    "fun_fact": "On trials in 1935 she reached 45 knots, a record for a destroyer that still stands.",
+    "image": "le-terrible.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "orp-blyskawica",
+    "name": "ORP Błyskawica",
+    "nation": "Poland",
+    "class": "Grom-class destroyer",
+    "launched": 1936,
+    "fate": "Museum ship at Gdynia, Poland",
+    "description": "She left Poland for Britain just before the German invasion and fought throughout the war: Norway, Dunkirk, the Atlantic convoys and Normandy. She is the oldest preserved destroyer in the world.",
+    "fun_fact": "In May 1942, refitting at Cowes where she was built, she defended the town against a heavy air raid.",
+    "image": "orp-blyskawica.jpg",
+    "image_credit": "Image: author unknown · CC BY-SA 3.0",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "orp-piorun",
+    "name": "ORP Piorun",
+    "nation": "Poland",
+    "class": "N-class destroyer",
+    "launched": 1940,
+    "fate": "Returned to Britain in 1946; scrapped in 1955",
+    "description": "A new British destroyer manned by the Polish Navy. On the night of 26 May 1941 she was the first of her flotilla to find Bismarck, and exchanged fire with the battleship for about an hour.",
+    "fun_fact": "According to tradition she signalled \"I am a Pole\" before opening fire.",
+    "image": "orp-piorun.jpg",
+    "image_credit": "Image: Royal Navy official photographer · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "abraham-crijnssen",
+    "name": "HNLMS Abraham Crijnssen",
+    "nation": "Netherlands",
+    "class": "Jan van Amstel-class minesweeper",
+    "launched": 1936,
+    "fate": "Museum ship at Den Helder, Netherlands",
+    "description": "When Java fell in March 1942 her crew covered the ship in jungle foliage and painted her to look like rocks. She moved only at night and anchored close inshore by day.",
+    "fun_fact": "Disguised as a small island, she slipped past the Japanese and reached Australia in eight days.",
+    "image": "abraham-crijnssen.jpg",
+    "image_credit": "Image: No. 32 Squadron RAAF · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "tashkent",
+    "name": "Tashkent",
+    "nation": "Soviet Union",
+    "class": "Destroyer leader",
+    "launched": 1938,
+    "fate": "Sunk by German aircraft at Novorossiysk on 2 July 1942",
+    "description": "Built in Italy for the Soviet Navy and one of the fastest ships in the Black Sea. She made repeated runs into besieged Sevastopol with troops and supplies.",
+    "fun_fact": "Her unusual blue-grey paint earned her the nickname \"the Blue Cruiser\". She was the last large ship to get out of Sevastopol.",
+    "image": "tashkent.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "adrias",
+    "name": "Adrias",
+    "nation": "Greece",
+    "class": "Hunt-class escort destroyer",
+    "launched": 1942,
+    "fate": "Returned to Britain and scrapped in 1945",
+    "description": "A British-built escort destroyer given to the Greek Navy. In October 1943 a mine off Kalymnos blew away her entire bow as far back as the bridge.",
+    "fun_fact": "After makeshift repairs in Turkey she steamed about 700 miles to Alexandria without a bow.",
+    "image": "adrias.jpg",
+    "image_credit": "Image: Royal Navy Official Photographer · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "eidsvold",
+    "name": "HNoMS Eidsvold",
+    "nation": "Norway",
+    "class": "Eidsvold-class coastal defence ship",
+    "launched": 1900,
+    "fate": "Torpedoed by German destroyers at Narvik on 9 April 1940",
+    "description": "A forty-year-old armoured ship guarding the iron-ore port of Narvik. Her captain refused a German demand to surrender, and she was torpedoed before she could open fire.",
+    "fun_fact": "She broke in two and sank in seconds. Only a handful of her crew of about 180 survived.",
+    "image": "eidsvold.jpg",
+    "image_credit": "Image: B. Weyer (1857-1936) · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "vainamoinen",
+    "name": "Väinämöinen",
+    "nation": "Finland",
+    "class": "Väinämöinen-class coastal defence ship",
+    "launched": 1932,
+    "fate": "Ceded to the Soviet Union in 1947; scrapped in the 1960s",
+    "description": "A compact armoured ship with four 10-inch guns, designed to fight among the rocks and shallows of the Finnish coast. She shelled Soviet positions in both of Finland's wars with the USSR.",
+    "fun_fact": "In 1944 Soviet bombers sent to destroy her sank a German anti-aircraft ship by mistake.",
+    "image": "vainamoinen.jpg",
+    "image_credit": "Image: Fred. Runeberg · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "thonburi",
+    "name": "HTMS Thonburi",
+    "nation": "Thailand",
+    "class": "Thonburi-class coastal defence ship",
+    "launched": 1937,
+    "fate": "Heavily damaged in 1941; later a training hulk",
+    "description": "A Japanese-built armoured ship with four 8-inch guns. In January 1941, during a border war with French Indochina, she fought a French squadron at Ko Chang and was set on fire.",
+    "fun_fact": "Part of her superstructure and a gun turret are preserved at the Royal Thai Naval Academy.",
+    "image": "thonburi.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "u-110",
+    "name": "U-110",
+    "nation": "Germany",
+    "class": "Type IXB U-boat",
+    "launched": 1940,
+    "fate": "Captured on 9 May 1941; sank under tow the next day",
+    "description": "Commanded by Fritz-Julius Lemp, who had sunk the liner Athenia in 1939. Forced to the surface by convoy escorts, she was abandoned but did not sink, and a British party boarded her.",
+    "fun_fact": "The Enigma machine and code books taken from her were so secret that her capture was hidden for decades.",
+    "image": "u-110.jpg",
+    "image_credit": "Image: Royal Navy official photographer · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "u-505",
+    "name": "U-505",
+    "nation": "Germany",
+    "class": "Type IXC U-boat",
+    "launched": 1941,
+    "fate": "Museum exhibit at the Museum of Science and Industry, Chicago",
+    "description": "Captured off West Africa on 4 June 1944 by a US Navy hunter-killer group led by the escort carrier Guadalcanal, complete with code books and acoustic torpedoes.",
+    "fun_fact": "She was the first enemy warship captured at sea by the US Navy since the War of 1812. Her crew were held in secret.",
+    "image": "u-505.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "u-534",
+    "name": "U-534",
+    "nation": "Germany",
+    "class": "Type IXC/40 U-boat",
+    "launched": 1942,
+    "fate": "Sunk by RAF aircraft in the Kattegat on 5 May 1945; now a museum exhibit",
+    "description": "She was sunk by a Liberator bomber while heading for Norway after the German surrender in the north had already been announced. Almost all her crew escaped.",
+    "fun_fact": "Raised in 1993 amid rumours of treasure, she held none. She is now displayed at Birkenhead, England.",
+    "image": "u-534.jpg",
+    "image_credit": "Image: Paul adams · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "u-995",
+    "name": "U-995",
+    "nation": "Germany",
+    "class": "Type VIIC/41 U-boat",
+    "launched": 1943,
+    "fate": "Museum ship at Laboe, near Kiel, Germany",
+    "description": "She operated from Norway against the Arctic convoys in 1944–45. Taken over by Norway after the war and renamed Kaura, she was returned to Germany in 1965.",
+    "fun_fact": "She is the only surviving Type VII, the workhorse of the U-boat fleet, of which about 700 were built.",
+    "image": "u-995.jpg",
+    "image_credit": "Image: Wiki05 · CC BY-SA 3.0",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "u-2540",
+    "name": "U-2540 (Wilhelm Bauer)",
+    "nation": "Germany",
+    "class": "Type XXI \"Elektroboot\"",
+    "launched": 1945,
+    "fate": "Museum ship at Bremerhaven, Germany",
+    "description": "One of the revolutionary Type XXI boats, built to stay submerged and travel faster under water than on the surface. Scuttled in May 1945, she was raised in 1957 and served the West German navy.",
+    "fun_fact": "The Type XXI came too late for the war but shaped submarine design in every major navy for the next decade.",
+    "image": "u-2540.jpg",
+    "image_credit": "Image: see LICENSES.md · CC BY-SA 4.0",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "u-234",
+    "name": "U-234",
+    "nation": "Germany",
+    "class": "Type XB minelaying U-boat",
+    "launched": 1943,
+    "fate": "Surrendered to the US Navy in May 1945; sunk as a target in 1947",
+    "description": "She sailed for Japan in April 1945 with a jet fighter in crates, technical drawings, German experts and about 560 kg of uranium oxide. Germany surrendered while she was in the Atlantic.",
+    "fun_fact": "Two Japanese officers travelling as passengers took their own lives rather than be captured.",
+    "image": "u-234.jpg",
+    "image_credit": "Image: Seaman Harry O'Brien · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "u-570",
+    "name": "U-570 (HMS Graph)",
+    "nation": "Germany",
+    "class": "Type VIIC U-boat",
+    "launched": 1941,
+    "fate": "Captured in 1941; wrecked on Islay, Scotland, in 1944",
+    "description": "On her first patrol, with a seasick and barely trained crew, she surfaced beneath an RAF Hudson south of Iceland and was depth-charged. Her captain surrendered to the aircraft.",
+    "fun_fact": "Commissioned into the Royal Navy as HMS Graph, she made war patrols against her former owners.",
+    "image": "u-570.jpg",
+    "image_credit": "Image: UK Government · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "u-123",
+    "name": "U-123",
+    "nation": "Germany",
+    "class": "Type IXB U-boat",
+    "launched": 1940,
+    "fate": "Scuttled at Lorient in 1944; raised by France as Blaison; scrapped in 1959",
+    "description": "In January 1942 Reinhard Hardegen brought her across the Atlantic to open Operation Drumbeat, sinking ships within sight of the American coast.",
+    "fun_fact": "Hardegen navigated off New York with a tourist guidebook and saw the glow of Manhattan's lights from his bridge.",
+    "image": "u-123.jpg",
+    "image_credit": "Image: Bundesarchiv, Bild 101II-MW-3983-23 · CC BY-SA 3.0 DE",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "u-977",
+    "name": "U-977",
+    "nation": "Germany",
+    "class": "Type VIIC U-boat",
+    "launched": 1943,
+    "fate": "Surrendered in Argentina in August 1945; sunk as a US Navy target in 1946",
+    "description": "At sea when Germany surrendered, her captain chose to sail for Argentina. Sixteen men who wanted to go home were landed in Norway; the rest reached Mar del Plata after more than three months.",
+    "fun_fact": "She spent 66 days of the voyage continuously submerged, breathing through her snorkel.",
+    "image": "u-977.jpg",
+    "image_credit": "Image: Daniel Mesa · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-wahoo",
+    "name": "USS Wahoo (SS-238)",
+    "nation": "United States",
+    "class": "Gato-class submarine",
+    "launched": 1942,
+    "fate": "Sunk by Japanese aircraft and ships in La Pérouse Strait, 11 October 1943",
+    "description": "Under Dudley \"Mush\" Morton she showed the US submarine force how aggressive it could be, sinking some 19 ships in a few months and raiding the Sea of Japan.",
+    "fun_fact": "She returned from one patrol with a broom lashed to her periscope: a clean sweep. Her wreck was found in 2006.",
+    "image": "uss-wahoo.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-tang",
+    "name": "USS Tang (SS-306)",
+    "nation": "United States",
+    "class": "Balao-class submarine",
+    "launched": 1943,
+    "fate": "Sunk by her own torpedo in the Formosa Strait on 25 October 1944",
+    "description": "Richard O'Kane's boat, credited with sinking 33 ships in five patrols, the best record of any American submarine. Her last torpedo ran in a circle and struck her stern.",
+    "fun_fact": "Some of her crew escaped from the sunken boat 55 metres down using Momsen lungs. Nine men survived, O'Kane among them.",
+    "image": "uss-tang.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-barb",
+    "name": "USS Barb (SS-220)",
+    "nation": "United States",
+    "class": "Gato-class submarine",
+    "launched": 1942,
+    "fate": "Transferred to Italy in 1954; scrapped in 1972",
+    "description": "Under Eugene Fluckey she sank a carrier, attacked a convoy at anchor in a Chinese harbour and became the first submarine to bombard shore targets with rockets.",
+    "fun_fact": "In July 1945 eight of her crew paddled ashore on Karafuto and blew up a train. Her battle flag includes a locomotive.",
+    "image": "uss-barb.jpg",
+    "image_credit": "Image: USN · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-cod",
+    "name": "USS Cod (SS-224)",
+    "nation": "United States",
+    "class": "Gato-class submarine",
+    "launched": 1943,
+    "fate": "Museum ship at Cleveland, Ohio",
+    "description": "She made seven war patrols in the South China Sea. She is preserved without doors cut in her hull: visitors still climb down the original hatches.",
+    "fun_fact": "In July 1945 she rescued the whole crew of the stranded Dutch submarine O 19, the only submarine-to-submarine rescue at sea in history.",
+    "image": "uss-cod.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-drum",
+    "name": "USS Drum (SS-228)",
+    "nation": "United States",
+    "class": "Gato-class submarine",
+    "launched": 1941,
+    "fate": "Museum ship at Mobile, Alabama",
+    "description": "The first Gato-class boat to go to war, in April 1942. She made thirteen patrols and sank fifteen ships.",
+    "fun_fact": "She is the oldest American fleet submarine still in existence, displayed on land beside the battleship USS Alabama.",
+    "image": "uss-drum.jpg",
+    "image_credit": "Image: Jean-Pierre Martin · CC BY-SA 3.0",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-silversides",
+    "name": "USS Silversides (SS-236)",
+    "nation": "United States",
+    "class": "Gato-class submarine",
+    "launched": 1941,
+    "fate": "Museum ship at Muskegon, Michigan",
+    "description": "One of the most successful American submarines of the war, credited with sinking 23 ships in fourteen patrols.",
+    "fun_fact": "In 1942 a pharmacist's mate removed a crewman's appendix on her wardroom table, with spoons bent into retractors, while she lay submerged.",
+    "image": "uss-silversides.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-pampanito",
+    "name": "USS Pampanito (SS-383)",
+    "nation": "United States",
+    "class": "Balao-class submarine",
+    "launched": 1943,
+    "fate": "Museum ship at Fisherman's Wharf, San Francisco",
+    "description": "She made six patrols in the Pacific. In September 1944 her wolfpack sank Japanese transports that, unknown to them, were carrying Allied prisoners of war.",
+    "fun_fact": "Returning to the scene days later, she pulled 73 British and Australian survivors from the sea.",
+    "image": "uss-pampanito.jpg",
+    "image_credit": "Image: Sanfranman59 · CC BY-SA 3.0",
+    "focus": [
+      0.5,
+      0.6
+    ]
+  },
+  {
+    "id": "uss-albacore",
+    "name": "USS Albacore (SS-218)",
+    "nation": "United States",
+    "class": "Gato-class submarine",
+    "launched": 1942,
+    "fate": "Mined off Hokkaido on 7 November 1944",
+    "description": "At the Battle of the Philippine Sea she fired six torpedoes at the new Japanese carrier Taihō. Only one hit, and her captain was disappointed.",
+    "fun_fact": "That one torpedo led to the explosion that destroyed Taihō, a result the Navy did not confirm for months. Her wreck was identified in 2023.",
+    "image": "uss-albacore.jpg",
+    "image_credit": "Image: US gov · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-harder",
+    "name": "USS Harder (SS-257)",
+    "nation": "United States",
+    "class": "Gato-class submarine",
+    "launched": 1942,
+    "fate": "Sunk by a Japanese escort off Luzon on 24 August 1944",
+    "description": "Under Sam Dealey she became famous for attacking destroyers head-on. In four days in June 1944 she sank three and damaged others, disrupting Japanese fleet plans.",
+    "fun_fact": "Her motto was \"Hit 'em harder\". Her wreck was found off the Philippines in 2024.",
+    "image": "uss-harder.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-growler",
+    "name": "USS Growler (SS-215)",
+    "nation": "United States",
+    "class": "Gato-class submarine",
+    "launched": 1941,
+    "fate": "Lost in the South China Sea in November 1944",
+    "description": "In February 1943 she collided with a Japanese ship at night and her bridge was swept by gunfire. The wounded captain, Howard Gilmore, ordered: \"Take her down!\"",
+    "fun_fact": "Gilmore was left on the bridge so the boat could dive. He was the first submariner to receive the Medal of Honor.",
+    "image": "uss-growler.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-tautog",
+    "name": "USS Tautog (SS-199)",
+    "nation": "United States",
+    "class": "Tambor-class submarine",
+    "launched": 1940,
+    "fate": "Scrapped in 1960",
+    "description": "She was at Pearl Harbor on 7 December 1941, where her gunners shot down an attacking aircraft. She went on to make thirteen patrols.",
+    "fun_fact": "With 26 confirmed sinkings she sank more ships than any other American submarine.",
+    "image": "uss-tautog.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-nautilus-ss168",
+    "name": "USS Nautilus (SS-168)",
+    "nation": "United States",
+    "class": "Narwhal-class submarine",
+    "launched": 1930,
+    "fate": "Scrapped in 1945",
+    "description": "One of the largest submarines of her day, with two 6-inch deck guns. At Midway she attacked the Japanese carrier force alone, and afterwards specialised in landing raiders and supplies.",
+    "fun_fact": "In August 1942 she and USS Argonaut carried Carlson's Marine Raiders to attack Makin Atoll.",
+    "image": "uss-nautilus-ss168.jpg",
+    "image_credit": "Image: U.S. Navy · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-argonaut",
+    "name": "USS Argonaut (SM-1)",
+    "nation": "United States",
+    "class": "Minelaying submarine",
+    "launched": 1927,
+    "fate": "Sunk by Japanese destroyers off Rabaul on 10 January 1943",
+    "description": "The only purpose-built minelaying submarine the US Navy ever had, later converted to carry troops. She was lost with all 102 men after attacking a convoy.",
+    "fun_fact": "She was the largest submarine the United States built before the nuclear age.",
+    "image": "uss-argonaut.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-darter",
+    "name": "USS Darter (SS-227)",
+    "nation": "United States",
+    "class": "Gato-class submarine",
+    "launched": 1943,
+    "fate": "Ran aground on Bombay Shoal on 24 October 1944 and abandoned",
+    "description": "With USS Dace she ambushed the main Japanese force heading for Leyte Gulf, sinking the flagship Atago and crippling the cruiser Takao, and gave the first warning of its approach.",
+    "fun_fact": "Chasing the damaged Takao that night, she ran hard aground on a reef. Dace rescued her entire crew.",
+    "image": "uss-darter.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-torsk",
+    "name": "USS Torsk (SS-423)",
+    "nation": "United States",
+    "class": "Tench-class submarine",
+    "launched": 1944,
+    "fate": "Museum ship at Baltimore, Maryland",
+    "description": "She arrived in the Pacific in 1945. On 14 August she sank two Japanese coastal defence ships in the Sea of Japan.",
+    "fun_fact": "Those were the last enemy warships sunk by the US Navy in the war. Hostilities ended the next day.",
+    "image": "uss-torsk.jpg",
+    "image_credit": "Image: Davidwells75 · CC BY-SA 3.0",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-parche",
+    "name": "USS Parche (SS-384)",
+    "nation": "United States",
+    "class": "Balao-class submarine",
+    "launched": 1943,
+    "fate": "Scrapped in 1970",
+    "description": "On the night of 31 July 1944 Lawson \"Red\" Ramage took her on the surface into the middle of a Japanese convoy, firing torpedoes from bow and stern at ranges of a few hundred metres.",
+    "fun_fact": "\"Ramage's Rampage\" lasted 46 minutes and earned him the Medal of Honor. Her conning tower is preserved at Pearl Harbor.",
+    "image": "uss-parche.jpg",
+    "image_credit": "Image: U.S. Navy · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-sealion",
+    "name": "USS Sealion (SS-315)",
+    "nation": "United States",
+    "class": "Balao-class submarine",
+    "launched": 1943,
+    "fate": "Sunk as a target in 1978",
+    "description": "On 21 November 1944 she torpedoed the battleship Kongō in the Formosa Strait, the only time an American submarine sank a battleship.",
+    "fun_fact": "One of her crew hung a microphone by the intercom and recorded the attack, a rare sound recording of a submarine in action.",
+    "image": "uss-sealion.jpg",
+    "image_credit": "Image: author unknown · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "uss-grunion",
+    "name": "USS Grunion (SS-216)",
+    "nation": "United States",
+    "class": "Gato-class submarine",
+    "launched": 1941,
+    "fate": "Lost off Kiska in the Aleutian Islands in July 1942",
+    "description": "On her first patrol she sank two Japanese submarine chasers off the Aleutians and then vanished. Her fate was a mystery for 65 years.",
+    "fun_fact": "Her captain's three sons organised the search that found her in 2007, with help from a Japanese researcher.",
+    "image": "uss-grunion.jpg",
+    "image_credit": "Image: US Navy · Public domain",
+    "focus": [
+      0.5,
+      0.5
+    ]
   }
 ]

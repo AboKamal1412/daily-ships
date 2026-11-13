@@ -1,5 +1,6 @@
 //! The few Win32 calls the app needs, declared directly so no extra crate is
-//! required: the local calendar date, the desktop work area and DPI awareness.
+//! required: the local calendar date, the desktop work area, DPI awareness and
+//! detection of full-screen applications.
 
 use std::ffi::c_void;
 
@@ -17,12 +18,21 @@ struct SystemTime {
 }
 
 #[repr(C)]
-#[derive(Default)]
+#[derive(Default, Clone, Copy, PartialEq, Debug)]
 struct RawRect {
     left: i32,
     top: i32,
     right: i32,
     bottom: i32,
+}
+
+#[repr(C)]
+#[derive(Default)]
+struct MonitorInfo {
+    size: u32,
+    monitor: RawRect,
+    work: RawRect,
+    flags: u32,
 }
 
 #[link(name = "kernel32")]
@@ -35,7 +45,27 @@ extern "system" {
     fn SystemParametersInfoW(action: u32, param: u32, data: *mut c_void, win_ini: u32) -> i32;
     fn SetProcessDpiAwarenessContext(context: isize) -> i32;
     fn GetDpiForSystem() -> u32;
+    fn GetForegroundWindow() -> isize;
+    fn GetShellWindow() -> isize;
+    fn GetDesktopWindow() -> isize;
+    fn GetWindowRect(window: isize, rect: *mut RawRect) -> i32;
+    fn GetClassNameW(window: isize, buffer: *mut u16, capacity: i32) -> i32;
+    fn MonitorFromWindow(window: isize, flags: u32) -> isize;
+    fn GetMonitorInfoW(monitor: isize, info: *mut MonitorInfo) -> i32;
 }
+
+#[link(name = "shell32")]
+extern "system" {
+    fn SHQueryUserNotificationState(state: *mut i32) -> i32;
+}
+
+const MONITOR_DEFAULTTONEAREST: u32 = 2;
+
+// QUERY_USER_NOTIFICATION_STATE values that mean "do not interrupt the user".
+const QUNS_NOT_PRESENT: i32 = 1; // locked, screen saver or fast user switching
+const QUNS_BUSY: i32 = 2; // a full-screen application is running
+const QUNS_RUNNING_D3D_FULL_SCREEN: i32 = 3; // exclusive full-screen Direct3D (games)
+const QUNS_PRESENTATION_MODE: i32 = 4; // presentation settings are on
 
 const SPI_GETWORKAREA: u32 = 0x0030;
 const DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2: isize = -4;
@@ -93,9 +123,100 @@ pub fn work_area() -> Option<WorkArea> {
     })
 }
 
+/// True when the popup should stay away: a game, video or presentation is
+/// running full screen, or nobody is at the screen (locked / screen saver).
+///
+/// Two checks are combined. Windows' own answer to "may I show a
+/// notification now?" covers exclusive full-screen games and presentation
+/// mode. Comparing the foreground window with its monitor additionally
+/// catches borderless full-screen windows (most modern games, F11 in a
+/// browser, full-screen video players).
+pub fn fullscreen_app_active() -> bool {
+    let mut state = 0i32;
+    // SAFETY: writes one i32 to the pointer we provide; returns an HRESULT.
+    let hr = unsafe { SHQueryUserNotificationState(&mut state) };
+    if hr >= 0 && notification_state_blocks(state) {
+        return true;
+    }
+    foreground_window_fills_monitor()
+}
+
+fn notification_state_blocks(state: i32) -> bool {
+    matches!(
+        state,
+        QUNS_NOT_PRESENT | QUNS_BUSY | QUNS_RUNNING_D3D_FULL_SCREEN | QUNS_PRESENTATION_MODE
+    )
+}
+
+fn foreground_window_fills_monitor() -> bool {
+    // SAFETY: all calls take plain handles and pointers to structs we own;
+    // each failure is checked and simply means "not full screen".
+    unsafe {
+        let window = GetForegroundWindow();
+        if window == 0 || window == GetShellWindow() || window == GetDesktopWindow() {
+            return false;
+        }
+        // The desktop itself (wallpaper and icons) covers the whole monitor.
+        let mut class = [0u16; 64];
+        let len = GetClassNameW(window, class.as_mut_ptr(), class.len() as i32);
+        let class = String::from_utf16_lossy(&class[..len.clamp(0, 63) as usize]);
+        if class == "Progman" || class == "WorkerW" {
+            return false;
+        }
+        let mut rect = RawRect::default();
+        if GetWindowRect(window, &mut rect) == 0 {
+            return false;
+        }
+        let mut info = MonitorInfo {
+            size: std::mem::size_of::<MonitorInfo>() as u32,
+            ..Default::default()
+        };
+        let monitor = MonitorFromWindow(window, MONITOR_DEFAULTTONEAREST);
+        if monitor == 0 || GetMonitorInfoW(monitor, &mut info) == 0 {
+            return false;
+        }
+        covers_exactly(rect, info.monitor)
+    }
+}
+
+/// A full-screen window has exactly the monitor's rectangle. A maximised
+/// window does not: it leaves the taskbar free, or (with an auto-hidden
+/// taskbar) overshoots every edge by the width of its invisible frame.
+fn covers_exactly(window: RawRect, monitor: RawRect) -> bool {
+    monitor.right > monitor.left && monitor.bottom > monitor.top && window == monitor
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
+
+    #[test]
+    fn only_busy_states_block_the_popup() {
+        for state in [1, 2, 3, 4] {
+            assert!(notification_state_blocks(state), "state {state}");
+        }
+        // 5 = accepts notifications, 6 = quiet time, 7 = store app, 0 = unknown
+        for state in [0, 5, 6, 7, 99] {
+            assert!(!notification_state_blocks(state), "state {state}");
+        }
+    }
+
+    #[test]
+    fn maximised_windows_are_not_full_screen() {
+        let rect = |left, top, right, bottom| RawRect {
+            left,
+            top,
+            right,
+            bottom,
+        };
+        let monitor = rect(0, 0, 2560, 1440);
+        assert!(covers_exactly(rect(0, 0, 2560, 1440), monitor));
+        // Maximised above a taskbar, and maximised with an auto-hidden taskbar.
+        assert!(!covers_exactly(rect(-8, -8, 2568, 1400), monitor));
+        assert!(!covers_exactly(rect(-8, -8, 2568, 1448), monitor));
+        assert!(!covers_exactly(rect(100, 100, 900, 700), monitor));
+        assert!(!covers_exactly(rect(0, 0, 0, 0), rect(0, 0, 0, 0)));
+    }
 
     #[test]
     fn local_date_is_iso_formatted() {

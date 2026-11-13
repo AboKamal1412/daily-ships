@@ -1,13 +1,18 @@
-//! Daily Ships: shows one random historical ship in a small popup in the
-//! bottom-right corner of the screen, then exits.
+//! Daily Ships: shows one random warship of the Second World War in a small
+//! popup in the bottom-right corner of the screen, then exits.
 //!
 //! The process does nothing after the window closes: no tray icon, no
-//! background service, no network access. Start-up at login is configured by
-//! `scripts/install-startup.ps1`, never by the app itself.
+//! background service, no network access. When it runs (at login and then at
+//! intervals through the day) is configured by `scripts/install-startup.ps1`,
+//! never by the app itself.
+//!
+//! The popup stays away, and the process exits at once, while a full-screen
+//! application (game, video, presentation) is in front or the PC is locked.
 //!
 //! Command line (all optional):
 //!   --ship <id>      show a specific ship (ids are listed in assets/ships.json)
-//!   --force          show the popup even after "Don't show today"
+//!   --force          show the popup even after "Don't show today" or while a
+//!                    full-screen application is running
 //!   --delay <secs>   wait before doing anything (used by the Run-key
 //!                    fallback of the install script; capped at 10 minutes)
 
@@ -72,6 +77,12 @@ fn main() {
     }
 
     platform::enable_dpi_awareness();
+
+    // Never pop up over a full-screen game, video or presentation. The next
+    // scheduled run tries again.
+    if !args.force && args.ship.is_none() && platform::fullscreen_app_active() {
+        return;
+    }
 
     let mut viewport = ViewportBuilder::default()
         .with_title(APP_NAME)

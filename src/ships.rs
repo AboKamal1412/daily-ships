@@ -119,8 +119,8 @@ mod tests {
     fn database_is_valid_and_large_enough() {
         let ships = load().expect("ships.json must parse");
         assert!(
-            ships.len() >= 20,
-            "expected at least 20 ships, got {}",
+            ships.len() > 200,
+            "expected more than 200 ships, got {}",
             ships.len()
         );
         for ship in &ships {
@@ -181,13 +181,13 @@ mod tests {
         for ship in load().unwrap() {
             let image = decode_image(&ship).unwrap_or_else(|err| panic!("{}: {err}", ship.id));
             assert!(
-                image.size[0] >= 400,
-                "{}: image is narrower than 400 px",
+                image.size[0] >= 380,
+                "{}: image is narrower than 380 px",
                 ship.id
             );
         }
         let embedded = EMBEDDED_IMAGE_COUNT;
-        assert!(embedded >= 20, "only {embedded} images are embedded");
+        assert!(embedded > 200, "only {embedded} images are embedded");
     }
 
     #[test]

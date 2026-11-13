@@ -1,8 +1,8 @@
 [package]
 name = "daily-ships"
-version = "1.0.0"
+version = "2.0.0"
 edition = "2021"
-description = "Shows one random historical ship in a small popup at Windows login, then exits."
+description = "Shows one random Second World War warship in a small popup, then exits."
 build = "build.rs"
 publish = false
 
