@@ -297,9 +297,13 @@ Ship** (including no immediate repeats), **Close**, **Don't show today**
 (including the silent exit on the next start), recovery from a corrupted state
 file, the 30 second auto-close, and that the popup does not take focus.
 
-Not tested: actually registering the scheduled task. The two scripts were
-checked for syntax and run with `-WhatIf` only, so that the build did not
-change this PC's start-up configuration. Display scaling other than 100 %,
+The install script was also run for real on the build machine from a normal
+(non-elevated) PowerShell: the task registered without administrator rights,
+and starting it with `Start-ScheduledTask` showed the popup, which closed by
+itself with result code 0.
+
+Not tested: an actual log-off and log-on, the `-UseRunKey` fallback and the
+uninstall script (both only run with `-WhatIf`). Display scaling other than 100 %,
 the scale-down path for small screens, multiple monitors and Windows 10 were
 also not tested.
 
