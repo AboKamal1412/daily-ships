@@ -14,6 +14,13 @@ fn main() {
     println!("cargo:rerun-if-changed=build.rs");
     println!("cargo:rerun-if-changed=assets/images");
     println!("cargo:rerun-if-changed=assets/ships.json");
+    println!("cargo:rerun-if-changed=assets/icon.ico");
+
+    // Embed the app icon and version info into the .exe (Explorer, taskbar,
+    // Task Scheduler). Only runs when building for Windows.
+    if env::var("CARGO_CFG_TARGET_OS").as_deref() == Ok("windows") {
+        embed_windows_resources();
+    }
 
     let manifest_dir = PathBuf::from(env::var("CARGO_MANIFEST_DIR").expect("CARGO_MANIFEST_DIR"));
     let images_dir = manifest_dir.join("assets").join("images");
@@ -69,3 +76,15 @@ fn main() {
     let out = Path::new(&env::var("OUT_DIR").expect("OUT_DIR")).join("embedded_images.rs");
     fs::write(&out, code).expect("failed to write embedded_images.rs");
 }
+
+#[cfg(windows)]
+fn embed_windows_resources() {
+    let mut res = winresource::WindowsResource::new();
+    res.set_icon("assets/icon.ico");
+    res.set("ProductName", "Daily Ships");
+    res.set("FileDescription", "Daily WW2 warship popup");
+    res.compile().expect("failed to embed the app icon");
+}
+
+#[cfg(not(windows))]
+fn embed_windows_resources() {}
